@@ -4,7 +4,6 @@ import HomeComponent from "./components/HomeComponent/HomeComponent";
 import { Hind } from "next/font/google";
 import MySlider from "./components/SliderCard/MySlider";
 import AboutMe from "./components/AboutMe/AboutMe";
-import Testimonial from "./components/Testimonial/Testimonial";
 
 
 
@@ -68,7 +67,6 @@ export default function Home() {
         </div>
       </div>
       <AboutMe />
-      <Testimonial />
 
       {
         isScrolled ? (

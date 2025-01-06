@@ -59,7 +59,7 @@ export default function AboutMe() {
           <h1 className="relative font-recoletaBlack text-5xl  text-[#F59E0B] mb-5 -mt-40  md:px-24 px-5">
             About My Self
           </h1>
-          <h4 className="relative w-full font-[300] md:w-3/4 lg:w-2/3 xl:w-1/2 font-recoleta text-[#111827] text-2xl mb-10 px-5 md:px-24">
+          <h4 className="relative w-full font-[300] md:w-3/4 lg:w-2/3 xl:w-1/2 font-recoleta text-[#111827] text-2xl mb-5 px-5 md:px-24">
             Crafting Seamless Frontend Experiences with Modern Technologies
           </h4>
           <section className="relative flex flex-col lg:flex-row px-5 md:px-24">
@@ -67,22 +67,23 @@ export default function AboutMe() {
               className={`w-full lg:w-1/3 text-[#111827] mr-0 mb-5  lg:mr-4 font-[200] ${hind.className}`}
             >
               {" "}
-              <h5 className="font-recoletaBold text-[#47626D] text-2xl mb-1">Who I Am</h5>
+              <strong className="font-recoletaBold text-[#47626D] text-2xl mb-1">Who I Am</strong><br />
               I’m Elmir (Charlie) Tanev, a dedicated Frontend Web Developer based in Plovdiv, Bulgaria, with nearly 5 years of experience in creating responsive, scalable, and user-friendly web applications. My expertise lies in HTML5, CSS3, JavaScript, React, Next.js, and TypeScript, complemented by UI/UX design skills. I am passionate about delivering visually captivating interfaces and ensuring seamless performance.
             </p>
             <p
               className={`w-full lg:w-1/3 text-[#111827] mr-0 mb-5  lg:mr-4 font-[200] ${hind.className}`}
             >
               {" "}
-              <h5 className="font-recoletaBold text-[#47626D] text-2xl mb-1">My Journey</h5>
+              <strong className="font-recoletaBold text-[#47626D] text-2xl mb-1">My Journey</strong><br />
               My career is driven by a passion for growth and innovation. I’ve built high-performance applications using frameworks like Tailwind CSS, PrimeReact, and Shadcn/UI, and mastered tools like Bootstrap 3, 4, and 5. I’ve also designed stunning prototypes and layouts with Figma and Adobe Illustrator. Continuous learning keeps me adaptable to modern technologies like Framer Motion for animations and Git/GitHub for version control.
             </p>
             <p
               className={`w-full lg:w-1/3 text-[#111827] mr-0 mb-5  lg:mr-4 font-[200] ${hind.className}`}
             >
               {" "}
-              <h5 className="font-recoletaBold text-[#47626D] text-2xl mb-1">Problem-Solving Approach</h5>
-              I’m a problem-solver at heart, thriving on researching new challenges and exploring creative solutions. When facing complex issues, I conduct in-depth research and experiment with cutting-edge tools to deliver scalable and innovative results. This mindset has allowed me to tackle a wide range of technical challenges and continuously refine my skills.
+              <strong className="font-recoletaBold text-[#47626D] text-2xl mb-1">Problem-Solving Approach</strong><br />
+              My career is driven by a passion for growth and innovation. I’ve built high-performance applications using frameworks like Tailwind CSS, PrimeReact, and Shadcn/UI, and mastered tools like Bootstrap 3, 4, and 5. I’ve also designed stunning prototypes and layouts with Figma and Adobe Illustrator. Continuous learning keeps me adaptable to modern technologies like Framer Motion for animations and Git/GitHub for version control.
+
             </p>
           </section>
         </div>
