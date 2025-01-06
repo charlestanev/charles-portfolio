@@ -103,7 +103,7 @@ const HomeComponent = () => {
       <div
         id="home"
         style={{
-          backgroundImage: "linear-gradient(to right, #ececec 65%, #48AFDE 35%)",
+          backgroundImage: "linear-gradient(to right, #ececec 65%, #F59E0B 35%)",
           minHeight: "500px",
           maxHeight: "1200px",
           height: "100%",
@@ -116,7 +116,7 @@ const HomeComponent = () => {
               <div className="container m-auto">
                 <div className="lg:pl-24 sm:pl-10 pl-0 md:py-0 py-20 md:text-start text-center">
                   <p
-                    className={`text-[#47AEDE]   text-3xl md:text-base lg:text-2xl ${hind.className}`}
+                    className={`text-[#F59E0B]   text-3xl md:text-base lg:text-2xl ${hind.className}`}
                   >
                     Hi There!
                   </p>
@@ -131,14 +131,14 @@ const HomeComponent = () => {
 
                   <a
                     href="/#portfolio"
-                    class={`inline-block bg-[#48AFDE] transition-all duration-300 ease-in-out rounded-lg  text-white hover:bg-[#111827] hover:shadow-lg transform hover:-translate-y-1 py-3 md:py-2 lg:py-3 px-5 lg:px-8 md:text-xs lg:text-base font-bold uppercase mt-8 md:mt-5 xl:mt-10 ${hind.className}`}
+                    class={`inline-block bg-[#F59E0B] transition-all duration-300 ease-in-out rounded-lg  text-white hover:bg-[#111827] hover:shadow-lg transform hover:-translate-y-1 py-3 md:py-2 lg:py-3 px-5 lg:px-8 md:text-xs lg:text-base font-bold uppercase mt-8 md:mt-5 xl:mt-10 ${hind.className}`}
                   >
                     Projects
                   </a>
                   <a
                     href="Elmir_Charlie_Tanev_-_Frontend_Developer_Resume.pdf"
                     download="Elmir_Charlie_Tanev_-_Frontend_Developer_Resume.pdf"
-                    className={`ml-10 inline-block bg-[#111827] transition-all duration-300 ease-in-out rounded-lg  text-white hover:bg-[#48AFDE] hover:shadow-lg transform hover:-translate-y-1 py-3 md:py-2 lg:py-3 px-5 lg:px-8 md:text-xs lg:text-base font-bold uppercase mt-8 md:mt-5 xl:mt-10 ${hind.className}`}
+                    className={`ml-10 inline-block bg-[#111827] transition-all duration-300 ease-in-out rounded-lg  text-white hover:bg-[#F59E0B] hover:shadow-lg transform hover:-translate-y-1 py-3 md:py-2 lg:py-3 px-5 lg:px-8 md:text-xs lg:text-base font-bold uppercase mt-8 md:mt-5 xl:mt-10 ${hind.className}`}
                   >
                     My Resume
                   </a>
@@ -170,7 +170,7 @@ const HomeComponent = () => {
               <div
                 className="relative max-w-sm bottom-[70px] md:max-w-xl lg:max-w-5xl xl:max-w-6xl lg:px-14 px-5 overflow-auto mx-auto bg-white rounded-2xl z-20 "
                 style={{
-                  boxShadow: "#48AFDE -10px 25px 50px 10px",
+                  boxShadow: "#F59E0B -10px 25px 50px 10px",
                 }}
               >
                 <div className="lg:py-10 py-10 md:py-6 cursor-all-scroll">

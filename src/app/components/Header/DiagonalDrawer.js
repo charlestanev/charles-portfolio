@@ -15,7 +15,7 @@ export default function DiagonalDrawer({
         {/*remove the 96 and change it to 0 */}
         <div
           className={`z-50 ${pathname === "/" ? "top-[0px]" : "top-[0px]"
-            } cursor-pointer fixed w-14 h-14 lg:w-24 lg:h-24 bg-[#48AFDE] top-0 flex justify-center items-center rounded-br-3xl `}
+            } cursor-pointer fixed w-14 h-14 lg:w-24 lg:h-24 bg-[#F59E0B] top-0 flex justify-center items-center rounded-br-3xl `}
         >
           <div
             onClick={() => setIsOpen(false)}
@@ -77,11 +77,11 @@ export default function DiagonalDrawer({
                       Home
                     </a>
                     {selecttedIndex1 === 0 ? (
-                      <div className="absolute top-2 -left-2 w-full h-full transform-gpu transition-all duration-300 -rotate-6  opacity-100  group-hover:rotate-6 group-hover:opacity-100 bg-[#48AFDE] rounded-xl -z-10"></div>
+                      <div className="absolute top-2 -left-2 w-full h-full transform-gpu transition-all duration-300 -rotate-6  opacity-100  group-hover:rotate-6 group-hover:opacity-100 bg-[#F59E0B] rounded-xl -z-10"></div>
                     ) : (
                       ""
                     )}
-                    <div className="absolute top-2 -left-2 w-full h-full transform-gpu transition-all duration-300 rotate-0  opacity-0  group-hover:-rotate-6 group-hover:opacity-100 bg-[#48AFDE] rounded-xl -z-10"></div>
+                    <div className="absolute top-2 -left-2 w-full h-full transform-gpu transition-all duration-300 rotate-0  opacity-0  group-hover:-rotate-6 group-hover:opacity-100 bg-[#F59E0B] rounded-xl -z-10"></div>
                   </div>
                 </li>
 
@@ -98,11 +98,11 @@ export default function DiagonalDrawer({
                       Portfolio
                     </a>
                     {selecttedIndex1 === 1 ? (
-                      <div className="absolute top-2  -left-2 w-full h-full transform-gpu transition-all duration-300 -rotate-6  opacity-100  group-hover:-rotate-6 group-hover:opacity-100 bg-[#48AFDE] rounded-xl -z-10"></div>
+                      <div className="absolute top-2  -left-2 w-full h-full transform-gpu transition-all duration-300 -rotate-6  opacity-100  group-hover:-rotate-6 group-hover:opacity-100 bg-[#F59E0B] rounded-xl -z-10"></div>
                     ) : (
                       ""
                     )}
-                    <div className="absolute top-2  -left-2 w-full h-full transform-gpu transition-all duration-300 rotate-0  opacity-0  group-hover:-rotate-6 group-hover:opacity-100 bg-[#48AFDE] rounded-xl -z-10"></div>
+                    <div className="absolute top-2  -left-2 w-full h-full transform-gpu transition-all duration-300 rotate-0  opacity-0  group-hover:-rotate-6 group-hover:opacity-100 bg-[#F59E0B] rounded-xl -z-10"></div>
                   </div>
                 </li>
 
@@ -119,11 +119,11 @@ export default function DiagonalDrawer({
                       About Me
                     </a>
                     {selecttedIndex1 === 2 ? (
-                      <div className="absolute top-2  -left-2 w-full h-full transform-gpu transition-all duration-300 -rotate-6  opacity-100  group-hover:-rotate-6 group-hover:opacity-100 bg-[#48AFDE] rounded-xl -z-10"></div>
+                      <div className="absolute top-2  -left-2 w-full h-full transform-gpu transition-all duration-300 -rotate-6  opacity-100  group-hover:-rotate-6 group-hover:opacity-100 bg-[#F59E0B] rounded-xl -z-10"></div>
                     ) : (
                       ""
                     )}
-                    <div className="absolute top-2  -left-2 w-full h-full transform-gpu transition-all duration-300 rotate-0  opacity-0  group-hover:-rotate-6 group-hover:opacity-100 bg-[#48AFDE] rounded-xl -z-10"></div>
+                    <div className="absolute top-2  -left-2 w-full h-full transform-gpu transition-all duration-300 rotate-0  opacity-0  group-hover:-rotate-6 group-hover:opacity-100 bg-[#F59E0B] rounded-xl -z-10"></div>
                   </div>
                 </li>
 
@@ -140,17 +140,17 @@ export default function DiagonalDrawer({
                       Hire Me
                     </a>
                     {selecttedIndex1 === 3 ? (
-                      <div className="absolute top-2  -left-2 w-full h-full transform-gpu transition-all duration-300 -rotate-6  opacity-100  group-hover:-rotate-6 group-hover:opacity-100 bg-[#48AFDE] rounded-xl -z-10"></div>
+                      <div className="absolute top-2  -left-2 w-full h-full transform-gpu transition-all duration-300 -rotate-6  opacity-100  group-hover:-rotate-6 group-hover:opacity-100 bg-[#F59E0B] rounded-xl -z-10"></div>
                     ) : (
                       ""
                     )}
-                    <div className="absolute top-2  -left-2 w-full h-full transform-gpu transition-all duration-300 rotate-0  opacity-0  group-hover:-rotate-6 group-hover:opacity-100 bg-[#48AFDE] rounded-xl -z-10"></div>
+                    <div className="absolute top-2  -left-2 w-full h-full transform-gpu transition-all duration-300 rotate-0  opacity-0  group-hover:-rotate-6 group-hover:opacity-100 bg-[#F59E0B] rounded-xl -z-10"></div>
                   </div>
                 </li>
               </ul>
             </nav>
             <section className="mt-14 sm:mt-12 lg:mt-14 text-center relative sm:absolute lg:relative sm:right-0 lg:right-0 h-auto sm:h-full lg:h-auto">
-              <h3 className="block sm:hidden lg:block font-bold text-[#48AFDE]  text-2xl uppercase mb-5">
+              <h3 className="block sm:hidden lg:block font-bold text-[#F59E0B]  text-2xl uppercase mb-5">
                 Follow Me Around
               </h3>
               <div className="flex flex-row sm:flex-col  lg:flex-row">

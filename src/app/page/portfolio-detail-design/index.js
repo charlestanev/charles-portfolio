@@ -105,7 +105,7 @@ export default function Index({ id, data, DataArray }) {
         </div>
         <div className="col-span-12  lg:col-span-4 lg:px-0 sm:px-20">
           <div className="mt-10 sm:mt-24 w-full lg:max-w-[300px] lg:px-1  px-3 sticky top-36 pb-14">
-            <h1 className="text-3xl  mb-4 text-[#48AFDE]">{data?.name}</h1>
+            <h1 className="text-3xl  mb-4 text-[#F59E0B]">{data?.name}</h1>
             <p className="text-[14px] font-sans mb-4 text-[#111827]">
               {data?.des}
             </p>

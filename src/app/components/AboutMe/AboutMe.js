@@ -56,43 +56,33 @@ export default function AboutMe() {
           <h1 className="text-[240px] w-[80%] overflow-hidden absolute lg:left-40 md:left-30 top-[-50px]  text-[#EAF7FC]">
             About Me
           </h1>
-          <h1 className="relative font-recoletaBlack text-5xl  text-[#48AFDE] mb-5 -mt-40  md:px-24 px-5">
+          <h1 className="relative font-recoletaBlack text-5xl  text-[#F59E0B] mb-5 -mt-40  md:px-24 px-5">
             About My Self
           </h1>
           <h4 className="relative w-full font-[300] md:w-3/4 lg:w-2/3 xl:w-1/2 font-recoleta text-[#111827] text-2xl mb-10 px-5 md:px-24">
-            Knack of Building application with frontend and backend operation
+            Crafting Seamless Frontend Experiences with Modern Technologies
           </h4>
           <section className="relative flex flex-col lg:flex-row px-5 md:px-24">
             <p
               className={`w-full lg:w-1/3 text-[#111827] mr-0 mb-5  lg:mr-4 font-[200] ${hind.className}`}
             >
               {" "}
-              My name is Ehizeex. A professional and enthusiastic full-stack
-              developer and designer. However, I am more than just your average
-              programmer or designer. I've been running my own business for the
-              past 7 years and I was continually coming up with new concepts.
-              I'm very fluid and never stop learning and adapting to new
-              situations.
+              <h5 className="font-recoletaBold text-[#47626D] text-2xl mb-1">Who I Am</h5>
+              I’m Elmir (Charlie) Tanev, a dedicated Frontend Web Developer based in Plovdiv, Bulgaria, with nearly 5 years of experience in creating responsive, scalable, and user-friendly web applications. My expertise lies in HTML5, CSS3, JavaScript, React, Next.js, and TypeScript, complemented by UI/UX design skills. I am passionate about delivering visually captivating interfaces and ensuring seamless performance.
             </p>
             <p
               className={`w-full lg:w-1/3 text-[#111827] mr-0 mb-5  lg:mr-4 font-[200] ${hind.className}`}
             >
               {" "}
-              This attitude propelled me on an endless journey to learn a
-              variety of skills, including Teaching skill, UI/UX, design,
-              front-end and back-end development, devOps, SEO and optimisations,
-              server management, product design, software design, database
-              design, and many more...
+              <h5 className="font-recoletaBold text-[#47626D] text-2xl mb-1">My Journey</h5>
+              My career is driven by a passion for growth and innovation. I’ve built high-performance applications using frameworks like Tailwind CSS, PrimeReact, and Shadcn/UI, and mastered tools like Bootstrap 3, 4, and 5. I’ve also designed stunning prototypes and layouts with Figma and Adobe Illustrator. Continuous learning keeps me adaptable to modern technologies like Framer Motion for animations and Git/GitHub for version control.
             </p>
             <p
               className={`w-full lg:w-1/3 text-[#111827] mr-0 mb-5  lg:mr-4 font-[200] ${hind.className}`}
             >
               {" "}
-              When I encounter a new problem, I usually conduct extensive
-              research on it in order to comprehend it and discover cutting-edge
-              and innovative approaches for dealing with similar problems in the
-              future. As a result, it's not unexpected that I've listed a lot of
-              abilities here:
+              <h5 className="font-recoletaBold text-[#47626D] text-2xl mb-1">Problem-Solving Approach</h5>
+              I’m a problem-solver at heart, thriving on researching new challenges and exploring creative solutions. When facing complex issues, I conduct in-depth research and experiment with cutting-edge tools to deliver scalable and innovative results. This mindset has allowed me to tackle a wide range of technical challenges and continuously refine my skills.
             </p>
           </section>
         </div>
@@ -100,7 +90,7 @@ export default function AboutMe() {
 
       <div
         style={{
-          backgroundImage: "linear-gradient(45deg, #EAF7FC  70%,#48AFDE 30%)",
+          backgroundImage: "linear-gradient(45deg, #EAF7FC  70%,#F59E0B 30%)",
           width: "100%",
         }}
         className="lg:-mt-60"
@@ -111,7 +101,7 @@ export default function AboutMe() {
               {AboutData.map((item, index) => (
                 <a key={index}
                   onClick={() => handleCardClick(item, index)}
-                  style={{ boxShadow: "#48AFDE -5px  10px 20px 0px" }}
+                  style={{ boxShadow: "#F59E0B -5px  10px 20px 0px" }}
                   className={`relative cursor-pointer transition-all transform duration-300 group rounded-xl center p-6 lg:p-10 flex flex-col justify-center  items-center ${selectedIndex == index
                     ? " -translate-y-2 bg-[#476571]"
                     : "hover:bg-[#476571] hover:shadow-xl hover:-translate-y-2 bg-white"

@@ -87,13 +87,13 @@ export default function Page() {
       <div className="flex flex-col items-center justify-center w-full pt-[80px] pb-[80px] mt-4">
         <div className='flex flex-col items-center justify-center bg-[url("/offices.jpg")] bg-cover bg-center w-full h-[400px]'>
           <div className="flex flex-col items-center justify-center  w-full h-full bg-[#111827]/70 backdrop-brightness-50">
-            <div className="text-center bg-[#48AFDE] py-[5px] px-[10px] tracking-wide uppercase font-semibold text-[20px] text-white rounded-lg">
+            <div className="text-center bg-[#F59E0B] py-[5px] px-[10px] tracking-wide uppercase font-semibold text-[20px] text-white rounded-lg">
               <a href="#contact" className="cursor-pointer">
                 Contact Form
               </a>
             </div>
             <div className="mt-[10px]">
-              <h1 className="recoletaBold text-5xl text-[#48AFDE] p-2 text-center tracking-wide">
+              <h1 className="recoletaBold text-5xl text-[#F59E0B] p-2 text-center tracking-wide">
                 Hire Me
               </h1>
             </div>
@@ -112,15 +112,15 @@ export default function Page() {
             <div className="flex flex-col flex-1 xl:flex-row gap-[20px]">
               <div
                 className="flex flex-col py-[35px] px-[45px] rounded-lg shadow-lg cursor-pointer transition-all transform duration-300 hover:bg-[#111827] hover:text-white hover:-translate-y-4 bg-white"
-                style={{ boxShadow: "#48AFDE -1px 1px 10px 0px" }}
+                style={{ boxShadow: "#F59E0B -1px 1px 10px 0px" }}
               >
                 <div className="flex items-center gap-[15px]">
                   <div>
-                    <FaLocationDot size={40} color="#48AFDE" />
+                    <FaLocationDot size={40} color="#F59E0B" />
                   </div>
 
                   <div className="flex flex-col">
-                    <div className="text-[#48AFDE] text-[14px]">
+                    <div className="text-[#F59E0B] text-[14px]">
                       <p>Location...</p>
                     </div>
                     <div className="font-semibold text-[20px] tracking-wide">
@@ -138,15 +138,15 @@ export default function Page() {
 
               <div
                 className="flex flex-col py-[35px] px-[45px] rounded-lg shadow-lg cursor-pointer transition-all transform duration-300 hover:bg-[#111827] hover:text-white hover:-translate-y-4 bg-white"
-                style={{ boxShadow: "#48AFDE -1px 1px 10px 0px" }}
+                style={{ boxShadow: "#F59E0B -1px 1px 10px 0px" }}
               >
                 <div className="flex items-center gap-[15px]">
                   <div>
-                    <FiPhoneCall size={40} color="#48AFDE" />
+                    <FiPhoneCall size={40} color="#F59E0B" />
                   </div>
 
                   <div className="flex flex-col">
-                    <div className="text-[#48AFDE] text-[14px]">
+                    <div className="text-[#F59E0B] text-[14px]">
                       <p>24*7 Service..</p>
                     </div>
                     <div className="font-semibold text-[20px] tracking-wide">
@@ -166,15 +166,15 @@ export default function Page() {
             <div className="flex flex-col flex-1 xl:flex-row gap-[20px]">
               <div
                 className="flex flex-col py-[35px] px-[45px] rounded-lg shadow-lg cursor-pointer transition-all transform duration-300 hover:bg-[#111827] hover:text-white hover:-translate-y-4 bg-white"
-                style={{ boxShadow: "#48AFDE -1px 1px 10px 0px" }}
+                style={{ boxShadow: "#F59E0B -1px 1px 10px 0px" }}
               >
                 <div className="flex items-center gap-[15px]">
                   <div>
-                    <AiFillMail size={40} color="#48AFDE" />
+                    <AiFillMail size={40} color="#F59E0B" />
                   </div>
 
                   <div className="flex flex-col">
-                    <div className="text-[#48AFDE] text-[14px]">
+                    <div className="text-[#F59E0B] text-[14px]">
                       <p>Drop A Line</p>
                     </div>
                     <div className="font-semibold text-[20px] tracking-wide">
@@ -192,15 +192,15 @@ export default function Page() {
 
               <div
                 className="flex flex-col py-[35px] px-[45px] rounded-lg shadow-lg cursor-pointer transition-all transform duration-300 hover:bg-[#111827] hover:text-white hover:-translate-y-4 bg-white"
-                style={{ boxShadow: "#48AFDE -1px 1px 10px 0px" }}
+                style={{ boxShadow: "#F59E0B -1px 1px 10px 0px" }}
               >
                 <div className="flex items-center gap-[15px]">
                   <div>
-                    <AiOutlineFieldTime size={40} color="#48AFDE" />
+                    <AiOutlineFieldTime size={40} color="#F59E0B" />
                   </div>
 
                   <div className="flex flex-col">
-                    <div className="text-[#48AFDE] text-[14px]">
+                    <div className="text-[#F59E0B] text-[14px]">
                       <p>Office Hours..</p>
                     </div>
                     <div className="font-semibold text-[20px] tracking-wide">
@@ -230,7 +230,7 @@ export default function Page() {
         >
           <div className="absolute h-full w-full bg-gradient-to-t from-[#223740] via-[#223740] shadow-inner opacity-70"></div>
           <div className="absolute inset-0 flex flex-col gap-[20px] items-center justify-center text-white shadow-lg p-6">
-            <div className="text-4xl xl:mt-[150px] mt-0 rounded-full px-[15px] py-[15px] bg-[#48AFDE] text-white">
+            <div className="text-4xl xl:mt-[150px] mt-0 rounded-full px-[15px] py-[15px] bg-[#F59E0B] text-white">
               <FaHeadphones />
             </div>
             <div className="font-semibold text-[24px]">Chat With Live!</div>
@@ -243,7 +243,7 @@ export default function Page() {
               </p>
             </div>
             <div>
-              <button className="bg-[#48AFDE] text-white mb-[30px] px-4 py-2 hover:bg-[#111827] transition-color rounded-xl">
+              <button className="bg-[#F59E0B] text-white mb-[30px] px-4 py-2 hover:bg-[#111827] transition-color rounded-xl">
                 Let's chat
               </button>
             </div>
@@ -254,7 +254,7 @@ export default function Page() {
             Contact Us
           </div>
           <div className="">
-            <p className="text-[30px] text-[#48AFDE]">
+            <p className="text-[30px] text-[#F59E0B]">
               {" "}
               Request A Call Back ! Feel Free To Reach & Contact Us.
             </p>
@@ -318,7 +318,7 @@ export default function Page() {
               {loading && (
                 <div className="mb-3 text-center ml-5 w-6 h-6 border-t-2 border-blue-600 border-solid animate-spin rounded-full"></div>
               )}
-              <button className="bg-[#48AFDE] w-full sm:w-auto px-[30px] py-[12px] hover:bg-[#111827] transition-colors duration-300 font-semibold rounded-lg text-white">
+              <button className="bg-[#F59E0B] w-full sm:w-auto px-[30px] py-[12px] hover:bg-[#111827] transition-colors duration-300 font-semibold rounded-lg text-white">
                 Send Us Message
               </button>
             </div>
