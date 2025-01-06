@@ -23,24 +23,24 @@ export default function Home() {
       setIsScrolled(scrollTop > 0);
     };
     window.addEventListener("scroll", handleScroll);
-  
+
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
   return (
     <main className="min-h-screen relative">
-      <HomeComponent />   
+      <HomeComponent />
       <div
-        className="mt-0 pt-5 -mb-40"
+        className={`${hind.className} mt-0 pt-5 -mb-40`}
         id="portfolio"
         style={{
           backgroundImage:
-          "linear-gradient(-62deg, #EEF7FB 0 50%,  white 0% 100%)",
+            "linear-gradient(-62deg, #EEF7FB 0 50%,  white 0% 100%)",
           width: "100%",
         }}
       >
-         <div className="container m-auto">
+        <div className="container m-auto">
           <p
             className="text-[300px]  text-[#F7FBFD] md:pl-[50px] px-5 max-w-[750px] w-[100%] overflow-hidden"
             style={{ transform: "translate(0px,-20px)" }}
@@ -63,14 +63,14 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div 
-        style={{ transform: "translate(0px,-230px)" }}
+        <div
+          style={{ transform: "translate(0px,-230px)" }}
         >
-          <MySlider/>
+          <MySlider />
         </div>
-        </div>
-        <AboutMe/>
-      <Testimonial/>
+      </div>
+      <AboutMe />
+      <Testimonial />
 
       {isScrolled ? (
         <div
