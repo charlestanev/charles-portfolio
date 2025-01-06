@@ -103,7 +103,7 @@ const HomeComponent = () => {
       <div
         id="home"
         style={{
-          backgroundImage: "linear-gradient(to right, #ececec 65%, #F59E0B 35%)",
+          backgroundImage: "linear-gradient(to right, rgb(229 229 229) 65%, #F59E0B 35%)",
           minHeight: "500px",
           maxHeight: "1200px",
           height: "100%",
