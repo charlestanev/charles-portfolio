@@ -120,25 +120,25 @@ const HomeComponent = () => {
                   >
                     Hi There!
                   </p>
-                  <h1 class="text-[#223740] font-recoletaBlack text-7xl md:text-6xl lg:text-7xl xl:text-8xl mt-5 md:mt-3">
+                  <h1 class="text-[#111827] font-recoletaBlack text-7xl md:text-6xl lg:text-7xl xl:text-8xl mt-5 md:mt-3">
                     I'm Elmir Charles
                   </h1>
                   <h2
-                    class={`text-[#223740] py-2 font-bold uppercase text-md md:text-xs lg:text-xl ${hind.className}`}
+                    class={`text-[#111827] py-2 font-bold uppercase text-md md:text-xs lg:text-xl ${hind.className}`}
                   >
                     Front End Web Developer &amp; and Designer
                   </h2>
 
                   <a
                     href="/#portfolio"
-                    class={`inline-block bg-[#48AFDE] transition-all duration-300 ease-in-out rounded-lg  text-white hover:bg-[#223740] hover:shadow-lg transform hover:-translate-y-1 py-3 md:py-2 lg:py-3 px-5 lg:px-8 md:text-xs lg:text-base font-bold uppercase mt-8 md:mt-5 xl:mt-10 ${hind.className}`}
+                    class={`inline-block bg-[#48AFDE] transition-all duration-300 ease-in-out rounded-lg  text-white hover:bg-[#111827] hover:shadow-lg transform hover:-translate-y-1 py-3 md:py-2 lg:py-3 px-5 lg:px-8 md:text-xs lg:text-base font-bold uppercase mt-8 md:mt-5 xl:mt-10 ${hind.className}`}
                   >
                     Projects
                   </a>
                   <a
                     href="Elmir_Charlie_Tanev_-_Frontend_Developer_Resume.pdf"
                     download="Elmir_Charlie_Tanev_-_Frontend_Developer_Resume.pdf"
-                    className={`ml-10 inline-block bg-[#223740] transition-all duration-300 ease-in-out rounded-lg  text-white hover:bg-[#48AFDE] hover:shadow-lg transform hover:-translate-y-1 py-3 md:py-2 lg:py-3 px-5 lg:px-8 md:text-xs lg:text-base font-bold uppercase mt-8 md:mt-5 xl:mt-10 ${hind.className}`}
+                    className={`ml-10 inline-block bg-[#111827] transition-all duration-300 ease-in-out rounded-lg  text-white hover:bg-[#48AFDE] hover:shadow-lg transform hover:-translate-y-1 py-3 md:py-2 lg:py-3 px-5 lg:px-8 md:text-xs lg:text-base font-bold uppercase mt-8 md:mt-5 xl:mt-10 ${hind.className}`}
                   >
                     My Resume
                   </a>

@@ -14,9 +14,8 @@ export default function DiagonalDrawer({
       <div className="relative">
         {/*remove the 96 and change it to 0 */}
         <div
-          className={`z-50 ${
-            pathname === "/" ? "top-[0px]" : "top-[0px]"
-          } cursor-pointer fixed w-14 h-14 lg:w-24 lg:h-24 bg-[#48AFDE] top-0 flex justify-center items-center rounded-br-3xl `}
+          className={`z-50 ${pathname === "/" ? "top-[0px]" : "top-[0px]"
+            } cursor-pointer fixed w-14 h-14 lg:w-24 lg:h-24 bg-[#48AFDE] top-0 flex justify-center items-center rounded-br-3xl `}
         >
           <div
             onClick={() => setIsOpen(false)}
@@ -58,12 +57,11 @@ export default function DiagonalDrawer({
       </div>
       {/*remove the 96 and change it to 0 */}
       <header
-        className={`fixed w-full transition-all duration-500 z-40 ${
-          pathname === "/" ? "top-0" : "top-[0px]"
-        }`}
+        className={`fixed w-full transition-all duration-500 z-40 ${pathname === "/" ? "top-0" : "top-[0px]"
+          }`}
       >
         <div className="relative">
-          <div className="z-20 absolute transform-gpu ease-in-out duration-300 transition-all scale-100 opacity-100 bg-[#223740] bg-opacity-95 w-full  h-screen top-0 flex flex-col sm:flex-row lg:flex-col items-center justify-center ">
+          <div className="z-20 absolute transform-gpu ease-in-out duration-300 transition-all scale-100 opacity-100 bg-[#111827] bg-opacity-95 w-full  h-screen top-0 flex flex-col sm:flex-row lg:flex-col items-center justify-center ">
             <nav className="text-white font-recoletaBold text-center text-4xl lg:text-4xl 2xl:text-6xl uppercase">
               <ul className="flex flex-col">
                 <li className="group my-4 xl:my-4 2xl:my-6 relative">

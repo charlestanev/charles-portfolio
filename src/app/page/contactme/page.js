@@ -86,7 +86,7 @@ export default function Page() {
       <ToastContainer />
       <div className="flex flex-col items-center justify-center w-full pt-[80px] pb-[80px] mt-4">
         <div className='flex flex-col items-center justify-center bg-[url("/offices.jpg")] bg-cover bg-center w-full h-[400px]'>
-          <div className="flex flex-col items-center justify-center  w-full h-full bg-[#223740]/70 backdrop-brightness-50">
+          <div className="flex flex-col items-center justify-center  w-full h-full bg-[#111827]/70 backdrop-brightness-50">
             <div className="text-center bg-[#48AFDE] py-[5px] px-[10px] tracking-wide uppercase font-semibold text-[20px] text-white rounded-lg">
               <a href="#contact" className="cursor-pointer">
                 Contact Form
@@ -111,7 +111,7 @@ export default function Page() {
           <div className="sm:flex gap-[20px] mt-[50px] max-w-[1105px] w-full h-full">
             <div className="flex flex-col flex-1 xl:flex-row gap-[20px]">
               <div
-                className="flex flex-col py-[35px] px-[45px] rounded-lg shadow-lg cursor-pointer transition-all transform duration-300 hover:bg-[#223740] hover:text-white hover:-translate-y-4 bg-white"
+                className="flex flex-col py-[35px] px-[45px] rounded-lg shadow-lg cursor-pointer transition-all transform duration-300 hover:bg-[#111827] hover:text-white hover:-translate-y-4 bg-white"
                 style={{ boxShadow: "#48AFDE -1px 1px 10px 0px" }}
               >
                 <div className="flex items-center gap-[15px]">
@@ -137,7 +137,7 @@ export default function Page() {
               </div>
 
               <div
-                className="flex flex-col py-[35px] px-[45px] rounded-lg shadow-lg cursor-pointer transition-all transform duration-300 hover:bg-[#223740] hover:text-white hover:-translate-y-4 bg-white"
+                className="flex flex-col py-[35px] px-[45px] rounded-lg shadow-lg cursor-pointer transition-all transform duration-300 hover:bg-[#111827] hover:text-white hover:-translate-y-4 bg-white"
                 style={{ boxShadow: "#48AFDE -1px 1px 10px 0px" }}
               >
                 <div className="flex items-center gap-[15px]">
@@ -165,7 +165,7 @@ export default function Page() {
 
             <div className="flex flex-col flex-1 xl:flex-row gap-[20px]">
               <div
-                className="flex flex-col py-[35px] px-[45px] rounded-lg shadow-lg cursor-pointer transition-all transform duration-300 hover:bg-[#223740] hover:text-white hover:-translate-y-4 bg-white"
+                className="flex flex-col py-[35px] px-[45px] rounded-lg shadow-lg cursor-pointer transition-all transform duration-300 hover:bg-[#111827] hover:text-white hover:-translate-y-4 bg-white"
                 style={{ boxShadow: "#48AFDE -1px 1px 10px 0px" }}
               >
                 <div className="flex items-center gap-[15px]">
@@ -191,7 +191,7 @@ export default function Page() {
               </div>
 
               <div
-                className="flex flex-col py-[35px] px-[45px] rounded-lg shadow-lg cursor-pointer transition-all transform duration-300 hover:bg-[#223740] hover:text-white hover:-translate-y-4 bg-white"
+                className="flex flex-col py-[35px] px-[45px] rounded-lg shadow-lg cursor-pointer transition-all transform duration-300 hover:bg-[#111827] hover:text-white hover:-translate-y-4 bg-white"
                 style={{ boxShadow: "#48AFDE -1px 1px 10px 0px" }}
               >
                 <div className="flex items-center gap-[15px]">
@@ -243,7 +243,7 @@ export default function Page() {
               </p>
             </div>
             <div>
-              <button className="bg-[#48AFDE] text-white mb-[30px] px-4 py-2 hover:bg-[#223740] transition-color rounded-xl">
+              <button className="bg-[#48AFDE] text-white mb-[30px] px-4 py-2 hover:bg-[#111827] transition-color rounded-xl">
                 Let's chat
               </button>
             </div>
@@ -318,7 +318,7 @@ export default function Page() {
               {loading && (
                 <div className="mb-3 text-center ml-5 w-6 h-6 border-t-2 border-blue-600 border-solid animate-spin rounded-full"></div>
               )}
-              <button className="bg-[#48AFDE] w-full sm:w-auto px-[30px] py-[12px] hover:bg-[#223740] transition-colors duration-300 font-semibold rounded-lg text-white">
+              <button className="bg-[#48AFDE] w-full sm:w-auto px-[30px] py-[12px] hover:bg-[#111827] transition-colors duration-300 font-semibold rounded-lg text-white">
                 Send Us Message
               </button>
             </div>
