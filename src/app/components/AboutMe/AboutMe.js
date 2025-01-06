@@ -67,21 +67,21 @@ export default function AboutMe() {
               className={`w-full lg:w-1/3 text-[#111827] mr-0 mb-5  lg:mr-4 font-[200] ${hind.className}`}
             >
               {" "}
-              <strong className="font-recoletaBold text-[#47626D] text-2xl mb-1">Who I Am</strong><br />
+              <strong className="font-recoletaBold text-[#2c3d63] text-2xl mb-1">Who I Am</strong><br />
               I’m Elmir (Charlie) Tanev, a dedicated Frontend Web Developer based in Plovdiv, Bulgaria, with nearly 5 years of experience in creating responsive, scalable, and user-friendly web applications. My expertise lies in HTML5, CSS3, JavaScript, React, Next.js, and TypeScript, complemented by UI/UX design skills. I am passionate about delivering visually captivating interfaces and ensuring seamless performance.
             </p>
             <p
               className={`w-full lg:w-1/3 text-[#111827] mr-0 mb-5  lg:mr-4 font-[200] ${hind.className}`}
             >
               {" "}
-              <strong className="font-recoletaBold text-[#47626D] text-2xl mb-1">My Journey</strong><br />
+              <strong className="font-recoletaBold text-[#2c3d63] text-2xl mb-1">My Journey</strong><br />
               My career is driven by a passion for growth and innovation. I’ve built high-performance applications using frameworks like Tailwind CSS, PrimeReact, and Shadcn/UI, and mastered tools like Bootstrap 3, 4, and 5. I’ve also designed stunning prototypes and layouts with Figma and Adobe Illustrator. Continuous learning keeps me adaptable to modern technologies like Framer Motion for animations and Git/GitHub for version control.
             </p>
             <p
               className={`w-full lg:w-1/3 text-[#111827] mr-0 mb-5  lg:mr-4 font-[200] ${hind.className}`}
             >
               {" "}
-              <strong className="font-recoletaBold text-[#47626D] text-2xl mb-1">Problem-Solving Approach</strong><br />
+              <strong className="font-recoletaBold text-[#2c3d63] text-2xl mb-1">Problem-Solving Approach</strong><br />
               My career is driven by a passion for growth and innovation. I’ve built high-performance applications using frameworks like Tailwind CSS, PrimeReact, and Shadcn/UI, and mastered tools like Bootstrap 3, 4, and 5. I’ve also designed stunning prototypes and layouts with Figma and Adobe Illustrator. Continuous learning keeps me adaptable to modern technologies like Framer Motion for animations and Git/GitHub for version control.
 
             </p>
@@ -104,8 +104,8 @@ export default function AboutMe() {
                   onClick={() => handleCardClick(item, index)}
                   style={{ boxShadow: "#F59E0B -5px  10px 20px 0px" }}
                   className={`relative cursor-pointer transition-all transform duration-300 group rounded-xl center p-6 lg:p-10 flex flex-col justify-center  items-center ${selectedIndex == index
-                    ? " -translate-y-2 bg-[#476571]"
-                    : "hover:bg-[#476571] hover:shadow-xl hover:-translate-y-2 bg-white"
+                    ? " -translate-y-2 bg-[#2c3d63]"
+                    : "hover:bg-[#2c3d63] hover:shadow-xl hover:-translate-y-2 bg-white"
                     }`}
                 >
                   <div className="w-16 h-16 sm:w-10 sm:h-10  lg:w-16 lg:h-16">
@@ -115,14 +115,14 @@ export default function AboutMe() {
                       src={item.img} alt="internet issues" />
                   </div>
                   <h4
-                    className={`text-center text-sm lg:text-xl  font-recoletaBold transition-colors duration-500 group-hover:text-white text-[#47626D] mt-3 ${selectedIndex === index ? "text-white" : ""
+                    className={`text-center text-sm lg:text-xl  font-recoletaBold transition-colors duration-500 group-hover:text-white  mt-3 ${selectedIndex === index ? "text-white" : "text-[#2c3d63]"
                       }`}
                   >
                     {item.title}
                   </h4>
 
                   <div
-                    className={`absolute -top-2 -right-2 transform transition-all duration-500 opacity-0 group-hover:opacity-100 shadow-xl w-12 h-12 rounded-lg bg-[#476571] flex justify-center items-center font-bold text-white font-recoletaBold text-xl  ${selectedIndex === index
+                    className={`absolute -top-2 -right-2 transform transition-all duration-500 opacity-0 group-hover:opacity-100 shadow-xl w-12 h-12 rounded-lg bg-[#2c3d63] flex justify-center items-center font-bold text-white font-recoletaBold text-xl  ${selectedIndex === index
                       ? "opacity-100 rotate-12"
                       : "group-hover:rotate-12"
                       }`}
@@ -140,16 +140,16 @@ export default function AboutMe() {
                   }`}
               >
                 <p
-                  class={`text-[#47626D] ${hind.className}  text-lg sm:text-base lg:text-xl transition duration-500 transform opacity-100 undefined undefined`}
+                  class={`text-[#2c3d63] ${hind.className}  text-lg sm:text-base lg:text-xl transition duration-500 transform opacity-100 undefined undefined`}
                 >
                   My skills as
                 </p>
-                <h2 class="font-recoletaBold text-[#47626D] text-3xl sm:text-2xl md:text-3xl mb-6 w-44 md:w-56 transition duration-500 transform opacity-100 undefined undefined">
+                <h2 class="font-recoletaBold text-[#2c3d63] text-3xl sm:text-2xl md:text-3xl mb-6 w-44 md:w-56 transition duration-500 transform opacity-100 undefined undefined">
                   {mapData?.title}
                 </h2>
 
                 <ul
-                  class={`${hind.className} font-[300] list-disc text-[#47626D] ml-8 lg:ml-10 text-base lg:text-lg transition duration-500 transform  opacity-100 undefined undefined`}
+                  class={`${hind.className} font-[300] list-disc text-[#2c3d63] ml-8 lg:ml-10 text-base lg:text-lg transition duration-500 transform  opacity-100 undefined undefined`}
                 >
                   {mapData?.array?.map((obj) => (
                     <li key={obj} class="mb-2">{obj}</li>
@@ -161,7 +161,7 @@ export default function AboutMe() {
                   }`}
               >
                 <div className="card-inner">
-                  <div className="rounded-2xl cursor-pointer  text-7xl  xl:text-9xl font-recoletaBlack text-white bg-[#47626D]  p-5 xl:p-8 w-28 h-28 xl:w-48 xl:h-48  transform transition duration-500 transform-preserve -rotate-6 transform-preserve">
+                  <div className="rounded-2xl cursor-pointer  text-7xl  xl:text-9xl font-recoletaBlack text-white bg-[#2c3d63]  p-5 xl:p-8 w-28 h-28 xl:w-48 xl:h-48  transform transition duration-500 transform-preserve -rotate-6 transform-preserve">
                     <span className="text-2xl xl:text-6xl mr-2 sm:mr-3">*</span>
                     {mapData.count}
                   </div>
@@ -171,7 +171,7 @@ export default function AboutMe() {
               <div className="absolute right-10  -bottom-5 flex">
                 <a
                   onClick={HandlePrev}
-                  className="w-12 h-12 rounded-xl mr-1 transform transition duration-500  cursor-pointer  hover:-translate-y-1 hover:shadow-lg -rotate flex justify-center items-center bg-[#47626D]"
+                  className="w-12 h-12 rounded-xl mr-1 transform transition duration-500  cursor-pointer  hover:-translate-y-1 hover:shadow-lg -rotate flex justify-center items-center bg-[#2c3d63]"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -191,7 +191,7 @@ export default function AboutMe() {
                 </a>
                 <a
                   onClick={HandleNext}
-                  className="w-12 h-12 rounded-xl mr-1 transform transition duration-500  cursor-pointer  hover:-translate-y-1 hover:shadow-lg -rotate flex justify-center items-center bg-[#47626D]"
+                  className="w-12 h-12 rounded-xl mr-1 transform transition duration-500  cursor-pointer  hover:-translate-y-1 hover:shadow-lg -rotate flex justify-center items-center bg-[#2c3d63]"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

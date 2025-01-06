@@ -21,7 +21,7 @@ export default function SliderCard({ item, index }) {
           />
           <div
             onClick={() => router.push(`/portfoliodetail/${index}`)}
-            className="absolute bottom-[100px] lg:bottom-44 md:bottom-32 sm:bottom-[270px]  left-6 rounded-lg transition  duration-300 opacity-0 group-hover:opacity-100 bg-[#47626D] cursor-pointer flex items-center justify-center shadow-accent-color  hover:shadow-xl  hover:bg-[#47626D] w-10  h-10 md:w-12  md:h-12 lg:w-20 lg:h-20"
+            className="absolute bottom-[100px] lg:bottom-44 md:bottom-32 sm:bottom-[270px]  left-6 rounded-lg transition  duration-300 opacity-0 group-hover:opacity-100 bg-[#2c3d63] cursor-pointer flex items-center justify-center shadow-accent-color  hover:shadow-xl  hover:bg-[#2c3d63] w-10  h-10 md:w-12  md:h-12 lg:w-20 lg:h-20"
             style={{ boxShadow: "#F59E0B -10px 10px 20px 10px" }}
           >
             <svg

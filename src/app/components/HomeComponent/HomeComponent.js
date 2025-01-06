@@ -146,14 +146,14 @@ const HomeComponent = () => {
               </div>
             </div>
             {/*implemeting the profile image*/}
-            <div className="md:col-span-7 col-span-12 md:pt-[130px] pt-[50px] md:bg-transparent bg-[#d9eef7]">
+            <div className="md:col-span-7 col-span-12 md:pt-[130px] pt-[50px] md:bg-transparent bg-[#f8f8f8]">
               <div className="m-auto container"
                 style={{ width: '100%', height: '100%' }}
               >
                 <Image
                   className=""
                   alt="Front End Developer"
-                  src="/charles.png"
+                  src="/charles1.png"
                   decoding="async"
                   data-nimg="intrinsic"
                   width={0}

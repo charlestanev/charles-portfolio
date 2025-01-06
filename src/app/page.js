@@ -51,7 +51,7 @@ export default function Home() {
               Recent Works
             </p>
             <p
-              className={`max-w-2xl md:pl-[80px] px-5 font-[300] text-[16px] text-[#47626D] leading-8 mt-5 ${hind.className}`}
+              className={`max-w-2xl md:pl-[80px] px-5 font-[300] text-[16px] text-[#2c3d63] leading-8 mt-5 ${hind.className}`}
             >
               Welcome to my portfolio! <br />
               I’m a front-end web developer with a passion for building responsive, visually captivating, and user-friendly interfaces. My work focuses on delivering modern designs and seamless user experiences that exceed client expectations. I enjoy turning creative ideas into interactive web applications and constantly push myself to learn and implement the latest technologies.

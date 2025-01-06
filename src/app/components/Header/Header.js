@@ -41,14 +41,14 @@ export default function Header() {
       </div>
       <header
         className={`${isScrolled ? "headerShow" : ""
-          } w-full fixed top-0 z-50 transition-all duration-500`}
+          } w-full fixed top-0 z-50`}
 
       >
 
         <div className="relative">
           <div
             onClick={openDrawer}
-            className="z-30 absolute cursor-pointer w-14 h-14 lg:w-24 lg:h-24 bg-[#F59E0B] flex justify-center items-center rounded-br-3xl">
+            className="z-30 absolute cursor-pointer w-14 h-14 lg:w-24 lg:h-24 bg-[#F59E0B] flex justify-center items-center rounded-br-[0.5rem]">
             <div className="relative w-7 lg:w-10 h-7 lg:h-10 flex justify-center items-center">
               <Image
                 src="/drawer.svg"
