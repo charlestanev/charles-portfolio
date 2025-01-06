@@ -54,12 +54,10 @@ export default function Home() {
             <p
               className={`max-w-2xl md:pl-[80px] px-5 font-[300] text-[16px] text-[#47626D] leading-8 mt-5 ${hind.className}`}
             >
-              Here are a few of my most recent work. As a web designer and
-              full-stack web developer, I constantly prioritise 100% client
-              satisfaction. I always enjoy working on my projects, so each one
-              is a new adventure for me. While working on each new project, I
-              attempt to learn new things. As a result, my paintings are always
-              current and one-of-a-kind.
+              Welcome to my portfolio! <br />
+              I’m a front-end web developer with a passion for building responsive, visually captivating, and user-friendly interfaces. My work focuses on delivering modern designs and seamless user experiences that exceed client expectations. I enjoy turning creative ideas into interactive web applications and constantly push myself to learn and implement the latest technologies.
+
+              Each project is a chance to refine my skills, explore innovative solutions, and bring concepts to life. Take a look at my work below to see how I transform ideas into reality.
             </p>
           </div>
         </div>
@@ -72,29 +70,31 @@ export default function Home() {
       <AboutMe />
       <Testimonial />
 
-      {isScrolled ? (
-        <div
-          onClick={() => window.scrollTo(0, 0)}
-          className="bg-red-500 p-4 w-fit rounded-xl fixed bottom-8 right-8 cursor-pointer z-50 animate-bounce"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={5}
-            stroke="currentColor"
-            className="w-6 h-6 text-white"
+      {
+        isScrolled ? (
+          <div
+            onClick={() => window.scrollTo(0, 0)}
+            className="bg-red-500 p-4 w-fit rounded-xl fixed bottom-8 right-8 cursor-pointer z-50 animate-bounce"
           >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M4.5 15.75l7.5-7.5 7.5 7.5"
-            />
-          </svg>
-        </div>
-      ) : (
-        ""
-      )}
-    </main>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={5}
+              stroke="currentColor"
+              className="w-6 h-6 text-white"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M4.5 15.75l7.5-7.5 7.5 7.5"
+              />
+            </svg>
+          </div>
+        ) : (
+          ""
+        )
+      }
+    </main >
   );
 }

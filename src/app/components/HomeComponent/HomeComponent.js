@@ -99,11 +99,11 @@ const HomeComponent = () => {
   };
   return (
     <React.Fragment>
-      <Header/>
+      <Header />
       <div
         id="home"
         style={{
-          backgroundImage: "linear-gradient(to right,white 65%, #48AFDE 35%)",
+          backgroundImage: "linear-gradient(to right, #ececec 65%, #48AFDE 35%)",
           minHeight: "500px",
           maxHeight: "1200px",
           height: "100%",
@@ -121,12 +121,12 @@ const HomeComponent = () => {
                     Hi There!
                   </p>
                   <h1 class="text-[#223740] font-recoletaBlack text-7xl md:text-6xl lg:text-7xl xl:text-8xl mt-5 md:mt-3">
-                    I'm Ehiz
+                    I'm Elmir Charles
                   </h1>
                   <h2
                     class={`text-[#223740] py-2 font-bold uppercase text-md md:text-xs lg:text-xl ${hind.className}`}
                   >
-                    CEO edubaba Digital &amp; an instructor
+                    Front End Web Developer &amp; and Designer
                   </h2>
 
                   <a
@@ -136,8 +136,8 @@ const HomeComponent = () => {
                     Projects
                   </a>
                   <a
-                    href="ehizcv.pdf"
-                    download="Ehiedu Ehizcv.pdf"
+                    href="Elmir_Charlie_Tanev_-_Frontend_Developer_Resume.pdf"
+                    download="Elmir_Charlie_Tanev_-_Frontend_Developer_Resume.pdf"
                     className={`ml-10 inline-block bg-[#223740] transition-all duration-300 ease-in-out rounded-lg  text-white hover:bg-[#48AFDE] hover:shadow-lg transform hover:-translate-y-1 py-3 md:py-2 lg:py-3 px-5 lg:px-8 md:text-xs lg:text-base font-bold uppercase mt-8 md:mt-5 xl:mt-10 ${hind.className}`}
                   >
                     My Resume
@@ -148,18 +148,18 @@ const HomeComponent = () => {
             {/*implemeting the profile image*/}
             <div className="md:col-span-7 col-span-12 md:pt-[130px] pt-[50px] md:bg-transparent bg-[#d9eef7]">
               <div className="m-auto container"
-               style={{width: '100%', height: '100%'}}
+                style={{ width: '100%', height: '100%' }}
               >
                 <Image
                   className=""
-                  alt="Full-Stack Developer"
-                  src="/ehizeex.png"
+                  alt="Front End Developer"
+                  src="/charles.png"
                   decoding="async"
                   data-nimg="intrinsic"
                   width={0}
                   height={0}
                   sizes="100vw"
-                  style={{ width: '100%', height: 'auto' }} 
+                  style={{ width: '100%', height: 'auto' }}
                 />
               </div>
             </div>
@@ -176,33 +176,33 @@ const HomeComponent = () => {
                 <div className="lg:py-10 py-10 md:py-6 cursor-all-scroll">
                   <Slider {...settings}>
                     <Image
-                     height={8}
-                     width={50}
-                     src="/mongodb.png" alt="" className="h-12 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer " />
+                      height={8}
+                      width={50}
+                      src="/mongodb.png" alt="" className="h-12 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer " />
                     <Image
-                     height={8}
-                     width={50}
-                     src="/expressjs.png" alt="" className="h-12 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer " />
+                      height={8}
+                      width={50}
+                      src="/expressjs.png" alt="" className="h-12 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer " />
                     <Image
-                     height={8}
-                     width={50}
-                     src="/reactjs.png" alt="" className="h-12 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer  " />
+                      height={8}
+                      width={50}
+                      src="/reactjs.png" alt="" className="h-12 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer  " />
                     <Image
-                     height={8}
-                     width={50}
-                     src="/nextjs.png" alt="" className="h-12 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer " />
+                      height={8}
+                      width={50}
+                      src="/nextjs.png" alt="" className="h-12 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer " />
                     <Image
-                     height={8}
-                     width={50}
-                     src="/docker.png" alt="" className="h-12 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer " />
+                      height={8}
+                      width={50}
+                      src="/docker.png" alt="" className="h-12 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer " />
                     <Image
-                     height={8}
-                     width={50}
-                     src="/expressjs.png" alt="" className="h-12 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer " />
+                      height={8}
+                      width={50}
+                      src="/expressjs.png" alt="" className="h-12 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer " />
                     <Image
-                     height={8}
-                     width={50}
-                     src="/nodejs.png" alt="" className="h-12 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer " />
+                      height={8}
+                      width={50}
+                      src="/nodejs.png" alt="" className="h-12 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer " />
                   </Slider>
                 </div>
               </div>
