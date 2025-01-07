@@ -106,6 +106,26 @@ export default function Index({ id, data, DataArray }) {
         <div className="col-span-12  lg:col-span-4 lg:px-0 sm:px-20">
           <div className="mt-10 sm:mt-24 w-full lg:max-w-[300px] lg:px-1  px-3 sticky top-36 pb-14">
             <h1 className="text-3xl  mb-4 text-[#F59E0B]">{data?.name}</h1>
+            <div className="flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0 mt-4 mb-4">
+              <a
+                href={data?.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-white bg-blue-500 rounded-lg hover:bg-blue-600 transition-colors duration-300"
+              >
+                Visit Project Site
+              </a>
+              <a
+                href={data?.giturl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-white bg-gray-800 rounded-lg hover:bg-gray-900 transition-colors duration-300"
+              >
+                View Project Code
+              </a>
+            </div>
+
+
             <p className="text-[14px] font-sans mb-4 text-[#111827]">
               {data?.des}
             </p>
@@ -117,7 +137,7 @@ export default function Index({ id, data, DataArray }) {
               {data?.des1}
             </p>
 
-            <div className="flex flex-wrap">
+            {/* <div className="flex flex-wrap">
               <h1 className="mr-5 text-[14px]  bg-[#63c5f1] lg:bg-[#EEF7FB]  px-2 py-1  rounded-xl font-sans  mb-4 text-white lg:text-[#6A787D]">
                 UI/US Design
               </h1>
@@ -136,7 +156,20 @@ export default function Index({ id, data, DataArray }) {
               <h1 className="mr-5 text-[14px]  bg-[#63c5f1] lg:bg-[#EEF7FB]  px-2 py-1  rounded-xl font-sans  mb-4 text-white lg:text-[#6A787D]">
                 UI/US Design
               </h1>
+            </div> */}
+
+            <div className="flex flex-wrap">
+              {data?.technologies?.map((tech, index) => (
+                <h1
+                  key={index}
+                  className="mr-5 text-[14px] bg-[#63c5f1] lg:bg-[#EEF7FB] px-2 py-1 rounded-xl font-sans mb-4 text-white lg:text-[#6A787D]"
+                >
+                  {tech}
+                </h1>
+              ))}
             </div>
+
+
           </div>
         </div>
       </div>
