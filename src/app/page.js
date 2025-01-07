@@ -44,7 +44,7 @@ export default function Home() {
             className="text-[300px]  text-[#F7FBFD] md:pl-[50px] px-5 max-w-[750px] w-[100%] overflow-hidden"
             style={{ transform: "translate(0px,-20px)" }}
           >
-            Portfolio
+            gPortfolio
           </p>
           <div className="" style={{ transform: "translate(0px, -290px)" }}>
             <p className="text-[#F59E0B]  md:pl-[80px] px-5 font-extrabold text-5xl">
@@ -72,7 +72,7 @@ export default function Home() {
         isScrolled ? (
           <div
             onClick={() => window.scrollTo(0, 0)}
-            className="bg-red-500 p-4 w-fit rounded-xl fixed bottom-8 right-8 cursor-pointer z-50 animate-bounce"
+            className="bg-[#F59E0B] p-4 w-fit rounded-xl fixed bottom-8 right-8 cursor-pointer z-50 animate-bounce"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

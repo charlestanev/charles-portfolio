@@ -129,16 +129,7 @@ export default function DiagonalDrawer({
 
                 <li className="group my-4 xl:my-4 2xl:my-6 relative">
                   <div className="inline-block relative">
-                    <a
-                      target="blank"
-                      href="/page/contactme"
-                      onClick={() => {
-                        setSelectedIndex1(3);
-                        setIsOpen(false);
-                      }}
-                    >
-                      Hire Me
-                    </a>
+                    
                     {selecttedIndex1 === 3 ? (
                       <div className="absolute top-2  -left-2 w-full h-full transform-gpu transition-all duration-300 -rotate-6  opacity-100  group-hover:-rotate-6 group-hover:opacity-100 bg-[#F59E0B] rounded-xl -z-10"></div>
                     ) : (
