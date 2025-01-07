@@ -155,7 +155,7 @@ const HomeComponent = () => {
                   alt="Front End Developer"
                   src="/charles1.png"
                   decoding="async"
-                  data-nimg="intrinsic"
+                  data-nimg="responsive"
                   width={0}
                   height={0}
                   sizes="100vw"
@@ -176,33 +176,105 @@ const HomeComponent = () => {
                 <div className="lg:py-10 py-10 md:py-6 cursor-all-scroll">
                   <Slider {...settings}>
                     <Image
-                      height={8}
-                      width={50}
-                      src="/mongodb.png" alt="" className="h-12 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer " />
+                      src="/js.svg"
+                      alt="JS Logo"
+                      width={100}
+                      height={100}
+                      quality={100}
+                      className="h-16 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer transition-all duration-300"
+                    />
                     <Image
-                      height={8}
-                      width={50}
-                      src="/expressjs.png" alt="" className="h-12 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer " />
+                      src="/reactjs.png"
+                      alt="ReactJS Logo"
+                      width={100}
+                      height={100}
+                      quality={100}
+                      className="h-16 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer transition-all duration-300"
+                    />
                     <Image
-                      height={8}
-                      width={50}
-                      src="/reactjs.png" alt="" className="h-12 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer  " />
+                      src="/nextjs.png"
+                      alt="NextJS Logo"
+                      width={100}
+                      height={100}
+                      quality={100}
+                      className="h-16 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer transition-all duration-300"
+                    />
+
                     <Image
-                      height={8}
-                      width={50}
-                      src="/nextjs.png" alt="" className="h-12 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer " />
+                      src="/typescript.png"
+                      alt="TypeScript Logo"
+                      width={100}
+                      height={100}
+                      quality={100}
+                      className="h-16 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer transition-all duration-300"
+                    />
+
                     <Image
-                      height={8}
-                      width={50}
-                      src="/docker.png" alt="" className="h-12 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer " />
+                      src="/bootstrap.svg"
+                      alt="Bootstrap Logo"
+                      width={100}
+                      height={100}
+                      quality={100}
+                      className="h-16 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer transition-all duration-300"
+                    />
+
+
                     <Image
-                      height={8}
-                      width={50}
-                      src="/expressjs.png" alt="" className="h-12 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer " />
+                      src="/sass.svg"
+                      alt="Sass Logo"
+                      width={100}
+                      height={100}
+                      quality={100}
+                      className="h-16 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer transition-all duration-300"
+                    />
                     <Image
-                      height={8}
-                      width={50}
-                      src="/nodejs.png" alt="" className="h-12 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer " />
+                      src="/gitlab.svg"
+                      alt="Gitlab Logo"
+                      width={100}
+                      height={100}
+                      quality={100}
+                      className="h-16 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer transition-all duration-300"
+                    />
+                    <Image
+                      src="/yarn.svg"
+                      alt="Yarn Logo"
+                      width={100}
+                      height={100}
+                      quality={100}
+                      className="h-16 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer transition-all duration-300"
+                    />
+                    <Image
+                      src="/webpack.svg"
+                      alt="Webpack Logo"
+                      width={100}
+                      height={100}
+                      quality={100}
+                      className="h-16 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer transition-all duration-300"
+                    />
+                    <Image
+                      src="/npm.svg"
+                      alt="Npm Logo"
+                      width={100}
+                      height={100}
+                      quality={100}
+                      className="h-16 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer transition-all duration-300"
+                    />
+                    <Image
+                      src="/vite.svg"
+                      alt="Vite Logo"
+                      width={100}
+                      height={100}
+                      quality={100} // High image quality
+                      className="h-16 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer transition-all duration-300"
+                    />
+                    <Image
+                      src="/css.svg"
+                      alt="TypeScript Logo"
+                      width={100}
+                      height={100}
+                      quality={100}
+                      className="h-16 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer transition-all duration-300"
+                    />
                   </Slider>
                 </div>
               </div>

@@ -15,7 +15,7 @@ export default function DiagonalDrawer({
         {/*remove the 96 and change it to 0 */}
         <div
           className={`z-50 ${pathname === "/" ? "top-[0px]" : "top-[0px]"
-            } cursor-pointer fixed w-14 h-14 lg:w-24 lg:h-24 bg-[#F59E0B] top-0 flex justify-center items-center rounded-br-3xl `}
+            } cursor-pointer fixed w-14 h-14 lg:w-24 lg:h-24 bg-[#F59E0B] top-0 flex justify-center items-center rounded-br-[0.5rem] `}
         >
           <div
             onClick={() => setIsOpen(false)}
