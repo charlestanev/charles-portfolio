@@ -50,7 +50,7 @@ export default function AboutMe() {
     <React.Fragment>
       <div
         id="about-me-component"
-        className="bg-[#E0F3FD] pt-[250px] mt-4  pb-[100px] lg:pb-[600px] relative lg:h-[800px]"
+        className="bg-[rgb(229,229,229)] pt-[250px] mt-4  pb-[100px] lg:pb-[600px] relative lg:h-[800px]"
       >
         <div className="container m-auto">
           <h1 className="text-[240px] w-[80%] overflow-hidden absolute lg:left-40 md:left-30 top-[-50px]  text-[#EAF7FC]">
@@ -91,7 +91,7 @@ export default function AboutMe() {
 
       <div
         style={{
-          backgroundImage: "linear-gradient(45deg, #EAF7FC  70%,#F59E0B 30%)",
+          backgroundImage: "linear-gradient(45deg,  rgb(229 229 229) 70%,#F59E0B 30%)",
           width: "100%",
         }}
         className="lg:-mt-60"

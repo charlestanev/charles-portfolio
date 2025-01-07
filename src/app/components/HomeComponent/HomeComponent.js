@@ -121,7 +121,7 @@ const HomeComponent = () => {
                     Hi There!
                   </p>
                   <h1 class="text-[#111827] font-recoletaBlack text-7xl md:text-6xl lg:text-7xl xl:text-8xl mt-5 md:mt-3">
-                    I'm Elmir Charles
+                    I'm Elmir Charles Tanev
                   </h1>
                   <h2
                     class={`text-[#111827] py-2 font-bold uppercase text-md md:text-xs lg:text-xl ${hind.className}`}

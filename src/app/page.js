@@ -35,7 +35,7 @@ export default function Home() {
         id="portfolio"
         style={{
           backgroundImage:
-            "linear-gradient(-62deg, #EEF7FB 0 50%,  white 0% 100%)",
+            "linear-gradient(-62deg, rgb(229 229 229) 0 50%,  white 0% 100%)",
           width: "100%",
         }}
       >
