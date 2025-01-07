@@ -111,7 +111,7 @@ export default function Index({ id, data, DataArray }) {
                 href={data?.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-white bg-blue-500 rounded-lg hover:bg-blue-600 transition-colors duration-300"
+                className="inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-white bg-[#F59E0B] rounded-lg hover:bg-[#111827] transition-colors duration-300"
               >
                 Visit Project Site
               </a>
@@ -119,7 +119,7 @@ export default function Index({ id, data, DataArray }) {
                 href={data?.giturl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-white bg-gray-800 rounded-lg hover:bg-gray-900 transition-colors duration-300"
+                className="inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-white bg-[#111827] rounded-lg hover:bg-[#F59E0B] transition-colors duration-300"
               >
                 View Project Code
               </a>

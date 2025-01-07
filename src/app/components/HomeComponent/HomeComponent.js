@@ -208,7 +208,6 @@ const HomeComponent = () => {
                       quality={100}
                       className="h-16 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer transition-all duration-300"
                     />
-
                     <Image
                       src="/bootstrap.svg"
                       alt="Bootstrap Logo"
@@ -217,8 +216,6 @@ const HomeComponent = () => {
                       quality={100}
                       className="h-16 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer transition-all duration-300"
                     />
-
-
                     <Image
                       src="/sass.svg"
                       alt="Sass Logo"

@@ -78,10 +78,9 @@ export const AboutData = [
   },
 ];
 
-// this is for the slider 
 export const DataArray = [
   {
-    "title": "AdventurousJourney",
+    "title": "Adventurous Journey",
     "name": "Adventurous Journey",
     "des": "This project is a modern and responsive travel booking website for adventurous tours. It provides an elegant and interactive design to explore tour packages with a seamless user experience. The landing page is optimized for performance, responsiveness, and visual aesthetics.",
     "des1": "This project was built with HTML5, CSS3, and advanced SCSS for styling. It features responsive design, custom animations, and interactive UI elements, ensuring accessibility and adaptability across all modern devices.",
@@ -125,20 +124,6 @@ export const DataArray = [
     "technologies": ["React.js", "Axios", "React Router DOM", "CSS", "Create React App"]
   },
   {
-    "title": "Vanilla JS Interactive Quiz Game",
-    "name": "Quiz Game with JavaScript",
-    "des": "This project is an interactive quiz game built using Vanilla JavaScript, HTML5, and CSS3. It challenges players to solve math problems within a time limit, providing real-time feedback on correct and incorrect answers. The game tracks scores, manages countdown timers, and dynamically updates the UI based on user interactions.",
-    "des1": "The project emphasizes simplicity and responsiveness, ensuring a smooth user experience across all devices. It features dynamic DOM manipulation, event handling, and game logic implemented with JavaScript. The styling focuses on modern design principles with responsive layout support for mobile and desktop screens.",
-    "images": [
-      "/math-game-1.png",
-      "/math-game-2.png",
-      "/math-game-3.png"
-    ],
-    "url": ["https://github.com/charlestanev/quiz-game"],
-    "giturl": ["https://github.com/charlestanev/mathsGame"],
-    "technologies": ["HTML5", "CSS3", "JavaScript", "Responsive Design"]
-  },
-  {
     "title": "Bootstrap 4 Admin Panel",
     "name": "Bootstrap 4 Admin Dashboard",
     "des": "This project is a static admin dashboard template created using only HTML5, CSS3, and Bootstrap 4. It includes a variety of components such as navigation bars, tables, buttons, forms, and profile pages, designed to provide a modern admin panel interface.",
@@ -162,8 +147,18 @@ export const DataArray = [
     giturl: ["https://github.com/charlestanev/todo-list-mini-app"],
     technologies: ["React.js", "React DOM", "Testing Library", "Jest DOM"]
   },
-
-
-
-
+  {
+    "title": "Vanilla JS Interactive Quiz Game",
+    "name": "Quiz Game with JavaScript",
+    "des": "This project is an interactive quiz game built using Vanilla JavaScript, HTML5, and CSS3. It challenges players to solve math problems within a time limit, providing real-time feedback on correct and incorrect answers. The game tracks scores, manages countdown timers, and dynamically updates the UI based on user interactions.",
+    "des1": "The project emphasizes simplicity and responsiveness, ensuring a smooth user experience across all devices. It features dynamic DOM manipulation, event handling, and game logic implemented with JavaScript. The styling focuses on modern design principles with responsive layout support for mobile and desktop screens.",
+    "images": [
+      "/math-game-1.png",
+      "/math-game-2.png",
+      "/math-game-3.png"
+    ],
+    "url": ["https://github.com/charlestanev/quiz-game"],
+    "giturl": ["https://github.com/charlestanev/mathsGame"],
+    "technologies": ["HTML5", "CSS3", "JavaScript", "Responsive Design"]
+  },
 ];
