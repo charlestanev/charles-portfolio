@@ -173,16 +173,16 @@ export const DataArray = [
     "giturl": ["https://github.com/charlestanev/cineverse"],
     "technologies": ["React.js", "React DOM", "JavaScript", "CSS3", "Responsive Design"]
   },
-  {
-    title: "ReactJS To-Do List Mini App",
-    name: "To-Do List Mini App",
-    des: "This project is a ReactJS-based To-Do List Mini App created to help users manage tasks effectively. Users can add, edit, and delete tasks in a simple and intuitive interface. The app supports task prioritization and visual highlights for improved usability.",
-    des1: "This project was developed using ReactJS, JavaScript, and React DOM, focusing on simplicity and performance. It ensures responsiveness and adaptability across all modern devices and browsers.",
-    images: ["/todo-list-1.png", "/todo-list-2.png"],
-    url: ["https://github.com/charlestanev"],
-    giturl: ["https://github.com/charlestanev/todo-list-mini-app"],
-    technologies: ["React.js", "React DOM", "Testing Library", "Jest DOM"]
-  },
+  // {
+  //   title: "ReactJS To-Do List Mini App",
+  //   name: "To-Do List Mini App",
+  //   des: "This project is a ReactJS-based To-Do List Mini App created to help users manage tasks effectively. Users can add, edit, and delete tasks in a simple and intuitive interface. The app supports task prioritization and visual highlights for improved usability.",
+  //   des1: "This project was developed using ReactJS, JavaScript, and React DOM, focusing on simplicity and performance. It ensures responsiveness and adaptability across all modern devices and browsers.",
+  //   images: ["/todo-list-1.png", "/todo-list-2.png"],
+  //   url: ["https://github.com/charlestanev"],
+  //   giturl: ["https://github.com/charlestanev/todo-list-mini-app"],
+  //   technologies: ["React.js", "React DOM", "Testing Library", "Jest DOM"]
+  // },
   {
     "title": "Fruit Catch Game",
     "name": "Interactive Fruit Catch Game",
