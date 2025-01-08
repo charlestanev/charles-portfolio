@@ -161,6 +161,19 @@ export const DataArray = [
     "technologies": ["HTML5", "CSS3", "Bootstrap 4", "Responsive Design"]
   },
   {
+    "title": "Cineverse Movie Search App",
+    "name": "Cineverse App",
+    "des": "This project is a ReactJS-based movie search application called 'Cineverse.' It enables users to search for movies, view detailed information, and browse through trending movies. The app features an intuitive and modern UI, ensuring a smooth user experience.",
+    "des1": "The Cineverse App was developed using React.js for building the UI, React DOM for rendering components, and React Scripts for setup and configurations. It provides a responsive and interactive interface, making it ideal for movie enthusiasts to explore their favorite films.",
+    "images": [
+      "/cineverse-home.png",
+      "/cineverse-search.png"
+    ],
+    "url": ["https://github.com/charlestanev/cineverse"],
+    "giturl": ["https://github.com/charlestanev/cineverse"],
+    "technologies": ["React.js", "React DOM", "JavaScript", "CSS3", "Responsive Design"]
+  },
+  {
     title: "ReactJS To-Do List Mini App",
     name: "To-Do List Mini App",
     des: "This project is a ReactJS-based To-Do List Mini App created to help users manage tasks effectively. Users can add, edit, and delete tasks in a simple and intuitive interface. The app supports task prioritization and visual highlights for improved usability.",
@@ -170,6 +183,7 @@ export const DataArray = [
     giturl: ["https://github.com/charlestanev/todo-list-mini-app"],
     technologies: ["React.js", "React DOM", "Testing Library", "Jest DOM"]
   },
+
   {
     "title": "Vanilla JS Interactive Quiz Game",
     "name": "Quiz Game with JavaScript",
