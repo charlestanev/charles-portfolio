@@ -124,6 +124,29 @@ export const DataArray = [
     "technologies": ["React.js", "Axios", "React Router DOM", "CSS", "Create React App"]
   },
   {
+    "title": "Next.js ShadCN Dashboard",
+    "name": "ShadCN Admin Dashboard",
+    "des": "This project is a modern, responsive admin dashboard built with Next.js and ShadCN components. It features a clean and customizable design, leveraging data visualization tools such as Nivo Charts for performance analytics and reports. The layout is optimized for usability, providing sections for profile management, settings, logs, and notifications.",
+    "des1": "Developed using Next.js, React.js, and Tailwind CSS, the project integrates Radix UI for dialogs and dropdowns, along with Nivo Charts for rich data visualizations. It focuses on scalability, performance, and responsive design to ensure adaptability across devices.",
+    "images": [
+      "/dashboard-overview.png",
+      "/dashboard-charts.png",
+      "/dashboard-charts-2.png"
+    ],
+    "url": ["https://github.com/charlestanev/next-shadcn-design"],
+    "giturl": ["https://github.com/charlestanev/next-shadcn-design"],
+    "technologies": [
+      "Next.js",
+      "React.js",
+      "Tailwind CSS",
+      "ShadCN",
+      "Radix UI",
+      "Nivo Charts",
+      "SASS",
+      "TypeScript"
+    ]
+  },
+  {
     "title": "Bootstrap 4 Admin Panel",
     "name": "Bootstrap 4 Admin Dashboard",
     "des": "This project is a static admin dashboard template created using only HTML5, CSS3, and Bootstrap 4. It includes a variety of components such as navigation bars, tables, buttons, forms, and profile pages, designed to provide a modern admin panel interface.",
@@ -161,4 +184,59 @@ export const DataArray = [
     "giturl": ["https://github.com/charlestanev/mathsGame"],
     "technologies": ["HTML5", "CSS3", "JavaScript", "Responsive Design"]
   },
+  {
+    "title": "React Grocery List App",
+    "name": "Grocery List App",
+    "des": "This project is a React-based Grocery List application designed to help users create and manage grocery shopping lists efficiently. Users can add, remove, and mark items as completed. The app ensures simplicity and ease of use, making it a practical tool for everyday shopping planning.",
+    "des1": "The application was developed using React.js, React Icons, and React DOM. It features a responsive design and incorporates intuitive user interactions, providing a seamless experience on both desktop and mobile devices.",
+    "images": [
+      "/grocery-list-1.png",
+      "/grocery-list-2.png"
+    ],
+    "url": ["https://github.com/charlestanev/react-exercises"],
+    "giturl": ["https://github.com/charlestanev/react-exercises"],
+    "technologies": ["React.js", "React DOM", "React Icons", "Responsive Design"]
+  },
+  {
+    "title": "Bootstrap Social Theme",
+    "name": "Social Networking Bootstrap Theme",
+    "des": "This project is a responsive social networking website template built with Bootstrap 4. It provides sections for exploring, creating, and sharing content, including a modern UI design with a sign-up form, navigation bar, and interactive elements.",
+    "des1": "The project focuses on responsive design and modern layout, featuring HTML5, CSS3, Bootstrap 4, JavaScript, and jQuery. It demonstrates the use of Bootstrap's grid system and utility classes for quick and easy development.",
+    "images": [
+      "/bootstrap-social-1.png",
+      "/bootstrap-social-2.png",
+      "/bootstrap-social-3.png"
+    ],
+    "url": ["https://github.com/charlestanev/bootstrap-social-theme"],
+    "giturl": ["https://github.com/charlestanev/bootstrap-social-theme"],
+    "technologies": ["HTML5", "CSS3", "Bootstrap 4", "JavaScript", "jQuery"]
+  },
+  {
+    "title": "Modern Hotel Website",
+    "name": "Hotel Website",
+    "des": "This project is a responsive hotel website template created using HTML5, CSS3, and JavaScript. It features sections for showcasing the hotel, amenities, and booking information. The design includes a clean and modern layout with elegant typography and interactive elements.",
+    "des1": "Built using HTML5, CSS3, and JavaScript, this website provides a fully responsive experience. It incorporates features such as a navigation bar, interactive buttons, and multiple content sections, ensuring compatibility across all devices.",
+    "images": [
+      "/hotel-website-home.png",
+      "/hotel-website-about.png",
+      "/hotel-website-contact.png"
+    ],
+    "url": ["https://github.com/charlestanev/hotel-website"],
+    "giturl": ["https://github.com/charlestanev/hotel-website"],
+    "technologies": ["HTML5", "CSS3", "JavaScript", "Responsive Design"]
+  },
+  {
+    "title": "Bootstrap SaaS Template",
+    "name": "Bootstrap SaaS Landing Page",
+    "des": "This project is a fully responsive SaaS landing page template built with HTML5, CSS3, Bootstrap 4, and JavaScript. It includes modern design elements and sections like hero banners, feature highlights, and subscription forms, making it ideal for promoting SaaS products and services.",
+    "des1": "The template focuses on clean and structured code, ensuring scalability and responsiveness across all devices. It also incorporates Bootstrap's grid system for flexible layouts and smooth animations for user engagement.",
+    "images": [
+      "/bootstrap-saas-home.png",
+      "/bootstrap-saas-features.png",
+      "/bootstrap-saas-mobile-view.png"
+    ],
+    "url": ["https://github.com/charlestanev/bootstrap-saas-template"],
+    "giturl": ["https://github.com/charlestanev/bootstrapSaas-template"],
+    "technologies": ["HTML5", "CSS3", "Bootstrap 4", "JavaScript", "Responsive Design"]
+  }
 ];

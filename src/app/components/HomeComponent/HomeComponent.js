@@ -112,9 +112,9 @@ const HomeComponent = () => {
       >
         <div className="container m-auto ">
           <div className="grid grid-cols-12 ">
-            <div className=" bg-white  flex flex-col justify-center col-span-12 md:col-span-5  md:bg-transparent">
+            <div className="flex flex-col justify-center col-span-12 bg-white md:col-span-5 md:bg-transparent">
               <div className="container m-auto">
-                <div className="lg:pl-24 sm:pl-10 pl-0 md:py-0 py-20 md:text-start text-center">
+                <div className="py-20 pl-0 text-center lg:pl-24 sm:pl-10 md:py-0 md:text-start">
                   <p
                     className={`text-[#F59E0B]   text-3xl md:text-base lg:text-2xl ${hind.className}`}
                   >
@@ -147,7 +147,7 @@ const HomeComponent = () => {
             </div>
             {/*implemeting the profile image*/}
             <div className="md:col-span-7 col-span-12 md:pt-[130px] pt-[50px] md:bg-transparent bg-[#f8f8f8]">
-              <div className="m-auto container"
+              <div className="container m-auto"
                 style={{ width: '100%', height: '100%' }}
               >
                 <Image
@@ -165,7 +165,7 @@ const HomeComponent = () => {
             </div>
           </div>
 
-          <div className="container m-auto absolute">
+          <div className="container absolute m-auto">
             <div className="px-3">
               <div
                 className="relative max-w-sm bottom-[70px] md:max-w-xl lg:max-w-5xl xl:max-w-6xl lg:px-14 px-5 overflow-auto mx-auto bg-white rounded-2xl z-20 "
@@ -173,7 +173,7 @@ const HomeComponent = () => {
                   boxShadow: "#F59E0B -10px 25px 50px 10px",
                 }}
               >
-                <div className="lg:py-10 py-10 md:py-6 cursor-all-scroll">
+                <div className="py-10 lg:py-10 md:py-6 cursor-all-scroll">
                   <Slider {...settings}>
                     <Image
                       src="/js.svg"
@@ -181,7 +181,7 @@ const HomeComponent = () => {
                       width={100}
                       height={100}
                       quality={100}
-                      className="h-16 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer transition-all duration-300"
+                      className="h-16 transition-all duration-300 cursor-pointer grayscale opacity-30 hover:grayscale-0 hover:opacity-100"
                     />
                     <Image
                       src="/reactjs.png"
@@ -189,7 +189,7 @@ const HomeComponent = () => {
                       width={100}
                       height={100}
                       quality={100}
-                      className="h-16 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer transition-all duration-300"
+                      className="h-16 transition-all duration-300 cursor-pointer grayscale opacity-30 hover:grayscale-0 hover:opacity-100"
                     />
                     <Image
                       src="/nextjs.png"
@@ -197,7 +197,7 @@ const HomeComponent = () => {
                       width={100}
                       height={100}
                       quality={100}
-                      className="h-16 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer transition-all duration-300"
+                      className="h-16 transition-all duration-300 cursor-pointer grayscale opacity-30 hover:grayscale-0 hover:opacity-100"
                     />
 
                     <Image
@@ -206,7 +206,7 @@ const HomeComponent = () => {
                       width={100}
                       height={100}
                       quality={100}
-                      className="h-16 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer transition-all duration-300"
+                      className="h-16 transition-all duration-300 cursor-pointer grayscale opacity-30 hover:grayscale-0 hover:opacity-100"
                     />
                     <Image
                       src="/bootstrap.svg"
@@ -214,7 +214,7 @@ const HomeComponent = () => {
                       width={100}
                       height={100}
                       quality={100}
-                      className="h-16 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer transition-all duration-300"
+                      className="h-16 transition-all duration-300 cursor-pointer grayscale opacity-30 hover:grayscale-0 hover:opacity-100"
                     />
                     <Image
                       src="/sass.svg"
@@ -222,7 +222,7 @@ const HomeComponent = () => {
                       width={100}
                       height={100}
                       quality={100}
-                      className="h-16 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer transition-all duration-300"
+                      className="h-16 transition-all duration-300 cursor-pointer grayscale opacity-30 hover:grayscale-0 hover:opacity-100"
                     />
                     <Image
                       src="/gitlab.svg"
@@ -230,7 +230,7 @@ const HomeComponent = () => {
                       width={100}
                       height={100}
                       quality={100}
-                      className="h-16 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer transition-all duration-300"
+                      className="h-16 transition-all duration-300 cursor-pointer grayscale opacity-30 hover:grayscale-0 hover:opacity-100"
                     />
                     <Image
                       src="/yarn.svg"
@@ -238,7 +238,7 @@ const HomeComponent = () => {
                       width={100}
                       height={100}
                       quality={100}
-                      className="h-16 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer transition-all duration-300"
+                      className="h-16 transition-all duration-300 cursor-pointer grayscale opacity-30 hover:grayscale-0 hover:opacity-100"
                     />
                     <Image
                       src="/webpack.svg"
@@ -246,7 +246,7 @@ const HomeComponent = () => {
                       width={100}
                       height={100}
                       quality={100}
-                      className="h-16 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer transition-all duration-300"
+                      className="h-16 transition-all duration-300 cursor-pointer grayscale opacity-30 hover:grayscale-0 hover:opacity-100"
                     />
                     <Image
                       src="/npm.svg"
@@ -254,7 +254,7 @@ const HomeComponent = () => {
                       width={100}
                       height={100}
                       quality={100}
-                      className="h-16 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer transition-all duration-300"
+                      className="h-16 transition-all duration-300 cursor-pointer grayscale opacity-30 hover:grayscale-0 hover:opacity-100"
                     />
                     <Image
                       src="/vite.svg"
@@ -262,15 +262,15 @@ const HomeComponent = () => {
                       width={100}
                       height={100}
                       quality={100} // High image quality
-                      className="h-16 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer transition-all duration-300"
+                      className="h-16 transition-all duration-300 cursor-pointer grayscale opacity-30 hover:grayscale-0 hover:opacity-100"
                     />
                     <Image
                       src="/css.svg"
-                      alt="TypeScript Logo"
+                      alt="Css Logo"
                       width={100}
                       height={100}
                       quality={100}
-                      className="h-16 grayscale opacity-30 hover:grayscale-0 hover:opacity-100 cursor-pointer transition-all duration-300"
+                      className="h-16 transition-all duration-300 cursor-pointer grayscale opacity-30 hover:grayscale-0 hover:opacity-100"
                     />
                   </Slider>
                 </div>
