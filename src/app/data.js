@@ -183,7 +183,20 @@ export const DataArray = [
     giturl: ["https://github.com/charlestanev/todo-list-mini-app"],
     technologies: ["React.js", "React DOM", "Testing Library", "Jest DOM"]
   },
-
+  {
+    "title": "Fruit Catch Game",
+    "name": "Interactive Fruit Catch Game",
+    "des": "This project is an interactive fruit-catching game built with HTML, CSS, and JavaScript. Players try to catch falling fruits using mouse movements, accumulating points as they progress. The game also features visual and sound effects for an engaging user experience.",
+    "des1": "The game leverages HTML for structure, CSS for styling and animations, and JavaScript with jQuery for dynamic interactivity. It includes responsive design to ensure seamless gameplay on different devices.",
+    "images": [
+      "/fruit-game-1.png",
+      "/fruit-game-2.png",
+      "/fruit-game-3.png"
+    ],
+    "url": ["https://github.com/charlestanev/fruitGame"],
+    "giturl": ["https://github.com/charlestanev/fruitGame"],
+    "technologies": ["HTML5", "CSS3", "JavaScript", "jQuery", "Responsive Design"]
+  },
   {
     "title": "Vanilla JS Interactive Quiz Game",
     "name": "Quiz Game with JavaScript",
