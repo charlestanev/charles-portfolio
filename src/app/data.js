@@ -190,8 +190,7 @@ export const DataArray = [
     "des1": "The game leverages HTML for structure, CSS for styling and animations, and JavaScript with jQuery for dynamic interactivity. It includes responsive design to ensure seamless gameplay on different devices.",
     "images": [
       "/fruit-game-1.png",
-      "/fruit-game-2.png",
-      "/fruit-game-3.png"
+      "/fruit-game-2.png"
     ],
     "url": ["https://github.com/charlestanev/fruitGame"],
     "giturl": ["https://github.com/charlestanev/fruitGame"],
@@ -210,6 +209,34 @@ export const DataArray = [
     "url": ["https://github.com/charlestanev/quiz-game"],
     "giturl": ["https://github.com/charlestanev/mathsGame"],
     "technologies": ["HTML5", "CSS3", "JavaScript", "Responsive Design"]
+  },
+  {
+    "title": "Responsive News Website",
+    "name": "Modern News Web Template",
+    "des": "This project is a fully responsive and modern news website template designed for delivering the latest news articles, sports updates, and entertainment features. It incorporates visually appealing layouts and categories for seamless browsing.",
+    "des1": "The project was developed using HTML5, CSS3, and Bootstrap 4, offering a flexible grid system and mobile-first responsiveness. JavaScript and jQuery enhance the user interaction, including category filtering and navigation menus.",
+    "images": [
+      "/news-website-1.png",
+      "/news-website-2.png",
+      "/news-website-3.png"
+    ],
+    "url": ["https://github.com/charlestanev/News-Website"],
+    "giturl": ["https://github.com/charlestanev/News-Website"],
+    "technologies": ["HTML5", "CSS3", "Bootstrap 4", "JavaScript", "jQuery", "Responsive Design"]
+  },
+  {
+    "title": "NEER Financial Website",
+    "name": "NEER Financial Corporate Website",
+    "des": "A responsive and modern corporate website for NEER Financial, designed to showcase financial services and investment opportunities. It includes interactive elements, smooth scrolling, and a contact form with PHP integration for email submissions.",
+    "des1": "The project emphasizes clean UI design and responsive layouts built with HTML5, CSS3, and JavaScript. It features dynamic interactions using jQuery and PHP for backend email handling, ensuring seamless communication with visitors.",
+    "images": [
+      "/Financial-Website-1.png",
+      "/Financial-Website-2.png",
+      "/Financial-Website-3.png"
+    ],
+    "url": ["https://github.com/charlestanev/CorporateWebsite"],
+    "giturl": ["https://github.com/charlestanev/CorporateWebsite"],
+    "technologies": ["HTML5", "CSS3", "JavaScript", "jQuery", "PHP", "Responsive Design"]
   },
   {
     "title": "React Grocery List App",
@@ -237,6 +264,20 @@ export const DataArray = [
     "url": ["https://github.com/charlestanev/bootstrap-social-theme"],
     "giturl": ["https://github.com/charlestanev/bootstrap-social-theme"],
     "technologies": ["HTML5", "CSS3", "Bootstrap 4", "JavaScript", "jQuery"]
+  },
+  {
+    "title": "Tailwind Music Festival",
+    "name": "Tailwind Music Festival Website",
+    "des": "A visually engaging and responsive music festival website built with Tailwind CSS, showcasing schedules, artist lineups, and ticket information. It supports light and dark modes for an enhanced user experience.",
+    "des1": "This project highlights modern web design practices using Tailwind CSS, JavaScript, and responsive layouts. It features interactive elements, such as image carousels and schedule timelines, providing a seamless browsing experience for event attendees.",
+    "images": [
+      "/festival-1.png",
+      "/festival-2.png",
+      "/festival-3.png"
+    ],
+    "url": ["https://github.com/charlestanev/tailwind-music-festival"],
+    "giturl": ["https://github.com/charlestanev/tailwind-music-festival"],
+    "technologies": ["HTML5", "CSS3", "Tailwind CSS", "JavaScript", "Responsive Design"]
   },
   {
     "title": "Modern Hotel Website",
