@@ -5,9 +5,6 @@ import { Hind } from "next/font/google";
 import MySlider from "./components/SliderCard/MySlider";
 import AboutMe from "./components/AboutMe/AboutMe";
 
-
-
-
 const hind = Hind({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
@@ -28,7 +25,7 @@ export default function Home() {
     };
   }, []);
   return (
-    <main className="min-h-screen relative">
+    <main className="relative min-h-screen">
       <HomeComponent />
       <div
         className={`${hind.className} mt-0 pt-5 -mb-40`}
