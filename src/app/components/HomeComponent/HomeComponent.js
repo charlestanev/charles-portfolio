@@ -126,7 +126,7 @@ const HomeComponent = () => {
                   <h2
                     class={`text-[#111827] py-2 font-bold uppercase text-md md:text-xs lg:text-xl ${hind.className}`}
                   >
-                    Front End Web Developer &amp; and Designer
+                    Front End Web Developer and Designer
                   </h2>
 
                   <a

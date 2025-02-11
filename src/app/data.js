@@ -89,7 +89,7 @@ export const DataArray = [
       "/natours-2.jpg",
       "/natours-3.jpg",
     ],
-    url: ["https://natours.example.com"],
+    url: ["https://github.com/charlestanev/AdventurousJourney"],
     giturl: ["https://github.com/charlestanev/AdventurousJourney"],
     technologies: ["HTML5", "CSS3", "SCSS", "Responsive Design", "Animations"]
   },
