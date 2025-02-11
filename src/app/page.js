@@ -51,9 +51,7 @@ export default function Home() {
               className={`max-w-2xl md:pl-[80px] px-5 font-[300] text-[16px] text-[#2c3d63] leading-8 mt-5 ${hind.className}`}
             >
               Welcome to my portfolio! <br />
-              I’m a front-end web developer with a passion for building responsive, visually captivating, and user-friendly interfaces. My work focuses on delivering modern designs and seamless user experiences that exceed client expectations. I enjoy turning creative ideas into interactive web applications and constantly push myself to learn and implement the latest technologies.
-
-              Each project is a chance to refine my skills, explore innovative solutions, and bring concepts to life. Take a look at my work below to see how I transform ideas into reality.
+              I’m a Frontend Web Developer with a passion for building scalable, user-friendly, and visually engaging web applications. My work focuses on modern UI/UX design, performance optimization, and seamless user experiences that align with client needs. Each project is an opportunity to refine my skills, solve complex challenges, and bring innovative ideas to life. Below, you’ll find some of my work demonstrating my expertise in frontend development, responsive design, and interactive web solutions.
             </p>
           </div>
         </div>
