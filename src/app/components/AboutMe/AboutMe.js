@@ -62,28 +62,30 @@ export default function AboutMe() {
           <h4 className="relative w-full font-[300] md:w-3/4 lg:w-2/3 xl:w-1/2 font-recoleta text-[#111827] text-2xl mb-5 px-5 md:px-24">
             Crafting Seamless Frontend Experiences with Modern Technologies
           </h4>
-          <section className="relative flex flex-col lg:flex-row px-5 md:px-24">
+          <section className="relative flex flex-col px-5 lg:flex-row md:px-24">
             <p
               className={`w-full lg:w-1/3 text-[#111827] mr-0 mb-5  lg:mr-4 font-[200] ${hind.className}`}
             >
               {" "}
-              <strong className="font-recoletaBold text-[#2c3d63] text-2xl mb-1">Who I Am</strong><br />
-              I’m Elmir (Charlie) Tanev, a dedicated Frontend Web Developer based in Plovdiv, Bulgaria, with nearly 5 years of experience in creating responsive, scalable, and user-friendly web applications. My expertise lies in HTML5, CSS3, JavaScript, React, Next.js, and TypeScript, complemented by UI/UX design skills. I am passionate about delivering visually captivating interfaces and ensuring seamless performance.
+              <strong className="font-recoletaBold text-[#2c3d63] text-2xl mb-1">Who I Am</strong>
+              <br />
+              I’m Elmir (Charlie) Tanev, a Frontend Web Developer based in Plovdiv, Bulgaria, with 5 years of professional experience in building scalable, high-performance web applications. My expertise includes JavaScript, advanced CSS, SASS/SCSS, Bootstrap (v3, v4, v5), Tailwind CSS (v2, v3, v4), and UI/UX design. Over the past six months, I have been actively working with React, Next.js, and TypeScript as part of my professional experience, continuously refining my skills in modern frontend development.
             </p>
-            <p
-              className={`w-full lg:w-1/3 text-[#111827] mr-0 mb-5  lg:mr-4 font-[200] ${hind.className}`}
-            >
-              {" "}
-              <strong className="font-recoletaBold text-[#2c3d63] text-2xl mb-1">My Journey</strong><br />
-              My career is driven by a passion for growth and innovation. I’ve built high-performance applications using frameworks like Tailwind CSS, PrimeReact, and Shadcn/UI, and mastered tools like Bootstrap 3, 4, and 5. I’ve also designed stunning prototypes and layouts with Figma and Adobe Illustrator. Continuous learning keeps me adaptable to modern technologies like Framer Motion for animations and Git/GitHub for version control.
-            </p>
-            <p
-              className={`w-full lg:w-1/3 text-[#111827] mr-0 mb-5  lg:mr-4 font-[200] ${hind.className}`}
-            >
-              {" "}
-              <strong className="font-recoletaBold text-[#2c3d63] text-2xl mb-1">Problem-Solving Approach</strong><br />
-              My career is driven by a passion for growth and innovation. I’ve built high-performance applications using frameworks like Tailwind CSS, PrimeReact, and Shadcn/UI, and mastered tools like Bootstrap 3, 4, and 5. I’ve also designed stunning prototypes and layouts with Figma and Adobe Illustrator. Continuous learning keeps me adaptable to modern technologies like Framer Motion for animations and Git/GitHub for version control.
 
+            <p
+              className={`w-full lg:w-1/3 text-[#111827] mr-0 mb-5  lg:mr-4 font-[200] ${hind.className}`}
+            >
+              {" "}
+              <strong className="font-recoletaBold text-[#2c3d63] text-2xl mb-1">Experience & Growth</strong>
+              <br />
+              My career is driven by a passion for innovation and problem-solving. I have built high-performance applications using Tailwind CSS, PrimeReact, and ShadCN/UI while mastering tools like Bootstrap. I also have experience in prototyping and UI/UX design with Figma and Adobe Illustrator. I continuously explore new technologies to improve development efficiency and user experience.
+            </p>
+            <p
+              className={`w-full lg:w-1/3 text-[#111827] mr-0 mb-5  lg:mr-4 font-[200] ${hind.className}`}
+            >
+              {" "}
+              <strong className="font-recoletaBold text-[#2c3d63] text-2xl mb-1">Problem-Solving & Adaptability</strong><br />
+              I thrive in fast-paced environments where adaptability and continuous learning are essential. My ability to integrate modern technologies such as Framer Motion for animations and Git/GitHub for version control allows me to create seamless, interactive experiences. I focus on clean code, maintainability, and performance to ensure long-term project success.
             </p>
           </section>
         </div>
@@ -94,11 +96,11 @@ export default function AboutMe() {
           backgroundImage: "linear-gradient(45deg,  rgb(229 229 229) 70%,#F59E0B 30%)",
           width: "100%",
         }}
-        className="lg:-mt-60"
+        className="relative xl:-mt-44 lg:-mt-28 md:mt-0"
       >
         <section className="container flex  flex-col m-auto sm:flex-row px-5 md:px-24 mt-[50px sm:mt-0] transform translate-y-[-100px]">
-          <div className=" hidden sm:flex w-full sm:w-1/2 lg:w-7/12">
-            <div className="grid sm:grid-cols-2 xl:grid-cols-3 gap-6 mr-0 lg:mr-10">
+          <div className="hidden w-full sm:flex sm:w-1/2 lg:w-7/12">
+            <div className="grid gap-6 mr-0 sm:grid-cols-2 xl:grid-cols-3 lg:mr-10">
               {AboutData.map((item, index) => (
                 <a key={index}
                   onClick={() => handleCardClick(item, index)}
@@ -108,7 +110,7 @@ export default function AboutMe() {
                     : "hover:bg-[#2c3d63] hover:shadow-xl hover:-translate-y-2 bg-white"
                     }`}
                 >
-                  <div className="w-16 h-16 sm:w-10 sm:h-10  lg:w-16 lg:h-16">
+                  <div className="w-16 h-16 sm:w-10 sm:h-10 lg:w-16 lg:h-16">
                     <Image
                       height={100}
                       width={100}
@@ -133,8 +135,8 @@ export default function AboutMe() {
               ))}
             </div>
           </div>
-          <div className="w-full sm:w-1/2 lg:w-5/12 overflow-visible px-0 sm:pl-6 xl:px-10">
-            <div className="bg-white  lg:mt-0 mt-10 rounded-xl p-10 xl:p-12 shadow-accent-color relative">
+          <div className="w-full px-0 overflow-visible sm:w-1/2 lg:w-5/12 sm:pl-6 xl:px-10">
+            <div className="relative p-10 mt-10 bg-white lg:mt-0 rounded-xl xl:p-12 shadow-accent-color">
               <section
                 className={`fade-left overflow-hidden ${isFaded ? "fade-out" : ""
                   }`}
@@ -162,13 +164,13 @@ export default function AboutMe() {
               >
                 <div className="card-inner">
                   <div className="rounded-2xl cursor-pointer  text-7xl  xl:text-9xl font-recoletaBlack text-white bg-[#2c3d63]  p-5 xl:p-8 w-28 h-28 xl:w-48 xl:h-48  transform transition duration-500 transform-preserve -rotate-6 transform-preserve">
-                    <span className="text-2xl xl:text-6xl mr-2 sm:mr-3">*</span>
+                    <span className="mr-2 text-2xl xl:text-6xl sm:mr-3">*</span>
                     {mapData.count}
                   </div>
                 </div>
               </div>
 
-              <div className="absolute right-10  -bottom-5 flex">
+              <div className="absolute flex right-10 -bottom-5">
                 <a
                   onClick={HandlePrev}
                   className="w-12 h-12 rounded-xl mr-1 transform transition duration-500  cursor-pointer  hover:-translate-y-1 hover:shadow-lg -rotate flex justify-center items-center bg-[#2c3d63]"

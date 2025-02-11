@@ -118,15 +118,15 @@ const HomeComponent = () => {
                   <p
                     className={`text-[#F59E0B]   text-3xl md:text-base lg:text-2xl ${hind.className}`}
                   >
-                    Hi There!
+                    Welcome! I’m Elmir Charles Tanev
                   </p>
-                  <h1 class="text-[#111827] font-recoletaBlack text-7xl md:text-6xl lg:text-7xl xl:text-8xl mt-5 md:mt-3">
-                    I'm Elmir Charles Tanev
+                  <h1 class="text-[#111827] font-recoletaBlack text-6xl md:text-4xl lg:text-5xl xl:text-6xl mt-5 md:mt-3">
+                    Frontend Web Developer & UI/UX Designer
                   </h1>
                   <h2
                     class={`text-[#111827] py-2 font-bold uppercase text-md md:text-xs lg:text-xl ${hind.className}`}
                   >
-                    Front End Web Developer and Designer
+                    Crafting High-Performance Web Apps with Modern Frontend Technologies.
                   </h2>
 
                   <a
@@ -279,7 +279,7 @@ const HomeComponent = () => {
           </div>
         </div>
       </div>
-    </React.Fragment>
+    </React.Fragment >
   );
 };
 
