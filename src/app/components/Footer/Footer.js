@@ -23,14 +23,14 @@ export default function Footer() {
   return (
     <div id="footer" className="mt-[5px]">
       <footer className="bg-[#232323]">
-        <div className="mx-auto max-w-screen-xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
+        <div className="max-w-screen-xl px-4 py-16 mx-auto space-y-8 sm:px-6 lg:space-y-16 lg:px-8">
 
 
-          <div className="xl:max-w-6xl 2xl:max-w-7xl px-10 md:px-20 xl:px-44 mx-auto sm:py-10 overflow-hidden">
-            <div className="flex  flex-wrap justify-between items-center">
-              <div className="w-1/3 sm:w-auto sm:mx-4 mb-10 sm:mb-0">
+          <div className="px-10 mx-auto overflow-hidden xl:max-w-6xl 2xl:max-w-7xl md:px-20 xl:px-44 sm:py-10">
+            <div className="flex flex-wrap items-center justify-between">
+              <div className="w-1/3 mb-10 sm:w-auto sm:mx-4 sm:mb-0">
                 <a
-                  className="group flex flex-col items-center justify-center"
+                  className="flex flex-col items-center justify-center group"
                   target="_blank"
                   href="https://www.facebook.com/charley.tanev/"
                 >
@@ -52,9 +52,9 @@ export default function Footer() {
                 </a>
               </div>
 
-              <div className="w-1/3 sm:w-auto sm:mx-4 mb-10 sm:mb-0">
+              <div className="w-1/3 mb-10 sm:w-auto sm:mx-4 sm:mb-0">
                 <a
-                  className="group flex flex-col items-center justify-center"
+                  className="flex flex-col items-center justify-center group"
                   target="_blank"
                   href="https://github.com/charlestanev"
                 >
@@ -77,9 +77,9 @@ export default function Footer() {
               </div>
 
               {/* Discord */}
-              <div className="w-1/3 sm:w-auto sm:mx-4 mb-10 sm:mb-0">
+              <div className="w-1/3 mb-10 sm:w-auto sm:mx-4 sm:mb-0">
                 <a
-                  className="group flex flex-col items-center justify-center"
+                  className="flex flex-col items-center justify-center group"
                   href="https://discord.com/users/charlestanev"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -103,9 +103,9 @@ export default function Footer() {
               </div>
 
 
-              <div className="w-1/3 sm:w-auto sm:mx-4 mb-10 sm:mb-0">
+              <div className="w-1/3 mb-10 sm:w-auto sm:mx-4 sm:mb-0">
                 <a
-                  className="group flex flex-col items-center justify-center"
+                  className="flex flex-col items-center justify-center group"
                   target="_blank"
                   href="https://www.linkedin.com/in/elmir-tanev-843aab129/"
                 >
@@ -128,9 +128,9 @@ export default function Footer() {
                 </a>
               </div>
 
-              <div className="w-1/3 sm:w-auto sm:mx-4 mb-10 sm:mb-0">
+              <div className="w-1/3 mb-10 sm:w-auto sm:mx-4 sm:mb-0">
                 <a
-                  className="group flex flex-col items-center justify-center"
+                  className="flex flex-col items-center justify-center group"
                   target="_blank"
                   href="https://www.instagram.com/charles_tanev/"
                 >
@@ -151,11 +151,11 @@ export default function Footer() {
                   </h5>
                 </a>
               </div>
-              <div className="w-1/3 sm:w-auto sm:mx-4 mb-10 sm:mb-0">
+              <div className="w-1/3 mb-10 sm:w-auto sm:mx-4 sm:mb-0">
                 <a
-                  className="group flex flex-col items-center justify-center"
+                  className="flex flex-col items-center justify-center group"
                   target="_blank"
-                  href="mailto:charli.931@gmail.com"
+                  href="mailto:charlestanev.dev@gmail.com"
                 >
                   <svg
                     stroke="currentColor"
