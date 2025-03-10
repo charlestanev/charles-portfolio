@@ -4,7 +4,12 @@ import localFont from "next/font/local";
 import Header from "../app/components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-import { Analytics } from "@vercel/analytics/react"; // ✅ Import Analytics
+import { Analytics } from "@vercel/analytics/react";
+
+export const metadata = {
+  title: "Charles Tanev",
+  description: "Charles Tanev's personal website",
+};
 
 const poppins = localFont({
   src: [
@@ -23,11 +28,6 @@ const poppins = localFont({
   ],
   variable: "--font-Recoleta-Black",
 });
-
-const metadata = {
-  title: "Charles Tanev",
-  description: "Charles Tanev's personal website",
-};
 
 export default function RootLayout({ children }) {
   return (

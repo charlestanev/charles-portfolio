@@ -12,14 +12,14 @@ export default function DiagonalDrawer({
   return (
     <React.Fragment>
       <div className="relative">
-        {/*remove the 96 and change it to 0 */}
+
         <div
           className={`z-50 ${pathname === "/" ? "top-[0px]" : "top-[0px]"
             } cursor-pointer fixed w-14 h-14 lg:w-24 lg:h-24 bg-[#F59E0B] top-0 flex justify-center items-center rounded-br-[0.5rem] `}
         >
           <div
             onClick={() => setIsOpen(false)}
-            className="relative w-7 lg:w-10 h-7 lg:h-10 flex justify-center items-center"
+            className="relative flex items-center justify-center w-7 lg:w-10 h-7 lg:h-10"
           >
             {isOpen ? (
               <svg
@@ -55,17 +55,17 @@ export default function DiagonalDrawer({
           </div>
         </div>
       </div>
-      {/*remove the 96 and change it to 0 */}
+
       <header
         className={`fixed w-full transition-all duration-500 z-40 ${pathname === "/" ? "top-0" : "top-[0px]"
           }`}
       >
         <div className="relative">
           <div className="z-20 absolute transform-gpu ease-in-out duration-300 transition-all scale-100 opacity-100 bg-[#111827] bg-opacity-95 w-full  h-screen top-0 flex flex-col sm:flex-row lg:flex-col items-center justify-center ">
-            <nav className="text-white font-recoletaBold text-center text-4xl lg:text-4xl 2xl:text-6xl uppercase">
+            <nav className="text-4xl text-center text-white uppercase font-recoletaBold lg:text-4xl 2xl:text-6xl">
               <ul className="flex flex-col">
-                <li className="group my-4 xl:my-4 2xl:my-6 relative">
-                  <div className="inline-block relative">
+                <li className="relative my-4 group xl:my-4 2xl:my-6">
+                  <div className="relative inline-block">
                     <a
                       target="blank"
                       href="/#home"
@@ -85,8 +85,8 @@ export default function DiagonalDrawer({
                   </div>
                 </li>
 
-                <li className="group my-4 xl:my-4 2xl:my-6 relative">
-                  <div className="inline-block relative">
+                <li className="relative my-4 group xl:my-4 2xl:my-6">
+                  <div className="relative inline-block">
                     <a
                       target="blank"
                       href="/#portfolio"
@@ -106,8 +106,8 @@ export default function DiagonalDrawer({
                   </div>
                 </li>
 
-                <li className="group my-4 xl:my-4 2xl:my-6 relative">
-                  <div className="inline-block relative">
+                <li className="relative my-4 group xl:my-4 2xl:my-6">
+                  <div className="relative inline-block">
                     <a
                       target="blank"
                       href="/#about-me-component"
@@ -127,8 +127,8 @@ export default function DiagonalDrawer({
                   </div>
                 </li>
 
-                <li className="group my-4 xl:my-4 2xl:my-6 relative">
-                  <div className="inline-block relative">
+                <li className="relative my-4 group xl:my-4 2xl:my-6">
+                  <div className="relative inline-block">
 
                     {selecttedIndex1 === 3 ? (
                       <div className="absolute top-2  -left-2 w-full h-full transform-gpu transition-all duration-300 -rotate-6  opacity-100  group-hover:-rotate-6 group-hover:opacity-100 bg-[#F59E0B] rounded-xl -z-10"></div>
@@ -140,16 +140,16 @@ export default function DiagonalDrawer({
                 </li>
               </ul>
             </nav>
-            <section className="mt-14 sm:mt-12 lg:mt-14 text-center relative sm:absolute lg:relative sm:right-0 lg:right-0 h-auto sm:h-full lg:h-auto">
+            <section className="relative h-auto text-center mt-14 sm:mt-12 lg:mt-14 sm:absolute lg:relative sm:right-0 lg:right-0 sm:h-full lg:h-auto">
               <h3 className="block sm:hidden lg:block font-bold text-[#F59E0B]  text-2xl uppercase mb-5">
                 Follow Me Around
               </h3>
 
-              <div className="flex flex-row sm:flex-col  lg:flex-row">
+              <div className="flex flex-row sm:flex-col lg:flex-row">
                 <a
                   target="blank"
                   href="https://github.com/charlestanev"
-                  className="text-gray-300 hover:text-white transition-colors duration-3000"
+                  className="text-gray-300 transition-colors hover:text-white duration-3000"
                 >
                   <svg
                     stroke="currentColor"
@@ -168,7 +168,7 @@ export default function DiagonalDrawer({
                 <a
                   target="blank"
                   href="https://www.linkedin.com/in/elmir-tanev-843aab129/"
-                  className="text-gray-300 hover:text-white transition-colors duration-3000"
+                  className="text-gray-300 transition-colors hover:text-white duration-3000"
                 >
                   <svg
                     stroke="currentColor"
@@ -188,7 +188,7 @@ export default function DiagonalDrawer({
                 <a
                   target="blank"
                   href="mailto:charlestanev.dev@gmail.com"
-                  className="text-gray-300 hover:text-white transition-colors duration-3000"
+                  className="text-gray-300 transition-colors hover:text-white duration-3000"
                 >
                   <svg
                     stroke="currentColor"
@@ -209,7 +209,7 @@ export default function DiagonalDrawer({
                 <a
                   target="blank"
                   href="https://www.facebook.com/charley.tanev/"
-                  className="text-gray-300 hover:text-white transition-colors duration-3000"
+                  className="text-gray-300 transition-colors hover:text-white duration-3000"
                 >
                   <svg
                     stroke="currentColor"
@@ -230,7 +230,7 @@ export default function DiagonalDrawer({
                 <a
                   target="blank"
                   href="https://www.instagram.com/charles_tanev/"
-                  className="text-gray-300 hover:text-white transition-colors duration-3000"
+                  className="text-gray-300 transition-colors hover:text-white duration-3000"
                 >
                   <svg
                     stroke="currentColor"

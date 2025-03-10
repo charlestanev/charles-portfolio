@@ -25,7 +25,6 @@ export default function Footer() {
       <footer className="bg-[#232323]">
         <div className="max-w-screen-xl px-4 py-16 mx-auto space-y-8 sm:px-6 lg:space-y-16 lg:px-8">
 
-
           <div className="px-10 mx-auto overflow-hidden xl:max-w-6xl 2xl:max-w-7xl md:px-20 xl:px-44 sm:py-10">
             <div className="flex flex-wrap items-center justify-between">
               <div className="w-1/3 mb-10 sm:w-auto sm:mx-4 sm:mb-0">
@@ -174,9 +173,7 @@ export default function Footer() {
                 </a>
               </div>
             </div>
-
           </div>
-
 
           <div className="flex items-center justify-center h-full p-4">
             <div className="text-center">
@@ -185,7 +182,6 @@ export default function Footer() {
               </p>
             </div>
           </div>
-
 
         </div>
       </footer>

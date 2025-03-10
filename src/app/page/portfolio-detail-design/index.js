@@ -38,7 +38,7 @@ export default function Index({ id, data, DataArray }) {
           width={0}
           height={20}
           sizes="100vw"
-          style={{ width: '100%', backgroundSize: "cover" }} // optional
+          style={{ width: '100%', backgroundSize: "cover" }}
         />
       </div>
 
