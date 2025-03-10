@@ -14,19 +14,6 @@ export default function Index({ id, data, DataArray }) {
   const [next, setNext] = useState();
   const [prev, setPrev] = useState();
 
-  // original code to be corrected 
-  // useEffect(() => {
-  //   if (JSON.parse(id) === DataArray.length - 1) {
-  //     setNext(0);
-  //   } else {
-  //     setNext(JSON.parse(id) + 1);
-  //   }
-  //   if (JSON.parse(id) === DataArray.length - 1) {
-  //     setPrev(0);
-  //   } else {
-  //     setPrev(JSON.parse(id) - 1);
-  //   }
-  // });
   useEffect(() => {
     if (JSON.parse(id) === DataArray.length - 1) {
       setNext(0);
@@ -39,21 +26,6 @@ export default function Index({ id, data, DataArray }) {
       setPrev(JSON.parse(id) - 1);
     }
   }, [DataArray.length, id]);
-
-  // take correction from here 
-  // useEffect(() => {
-  //   if (JSON.parse(id) === DataArray.length - 1) {
-  //     setNext(0);
-  //   } else {
-  //     setNext(JSON.parse(id) + 1);
-  //   }
-
-  //   if (JSON.parse(id) === 0) {
-  //     setPre(DataArray.length - 1);
-  //   } else {
-  //     setPre(JSON.parse(id) - 1);
-  //   }
-  // });
 
   return (
     <React.Fragment>
@@ -84,15 +56,15 @@ export default function Index({ id, data, DataArray }) {
       </div>
 
       <div
-        className="grid  grid-cols-12  relative space-x-0 lg:space-x-8"
+        className="relative grid grid-cols-12 space-x-0 lg:space-x-8"
         style={{
           background:
             "linear-gradient(90deg, rgba(238, 247, 251, 1) 58%, rgba(255, 255, 255, 1) 52%",
         }}
       >
-        <div className="col-span-12  lg:col-span-8 mb-20 scrol lg:px-0 sm:px-20">
+        <div className="col-span-12 mb-20 lg:col-span-8 scrol lg:px-0 sm:px-20">
           {data?.images.map((item) => (
-            <div key={item} className="flex justify-center lg:justify-end  items-center">
+            <div key={item} className="flex items-center justify-center lg:justify-end">
               <Image
                 src={item}
                 alt="portfolio photos"
@@ -103,10 +75,10 @@ export default function Index({ id, data, DataArray }) {
             </div>
           ))}
         </div>
-        <div className="col-span-12  lg:col-span-4 lg:px-0 sm:px-20">
+        <div className="col-span-12 lg:col-span-4 lg:px-0 sm:px-20">
           <div className="mt-10 sm:mt-24 w-full lg:max-w-[300px] lg:px-1  px-3 sticky top-36 pb-14">
             <h1 className="text-3xl  mb-4 text-[#F59E0B]">{data?.name}</h1>
-            <div className="flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0 mt-4 mb-4">
+            <div className="flex flex-col mt-4 mb-4 space-y-4 md:flex-row md:space-x-4 md:space-y-0">
               <a
                 href={data?.url}
                 target="_blank"
@@ -153,7 +125,7 @@ export default function Index({ id, data, DataArray }) {
         </div>
       </div>
 
-      <div className="relative flex bg-accent-color h-48  text-white">
+      <div className="relative flex h-48 text-white bg-accent-color">
         <div
           className={`group w-1/2 flex items-center justify-center bg-cover  ${hind.className}`}
           style={{ backgroundImage: `url(${DataArray[prev]?.images[0]})` }}
