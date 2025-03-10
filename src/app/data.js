@@ -85,11 +85,11 @@ export const DataArray = [
     des: "This project is a modern and responsive travel booking website for adventurous tours. It provides an elegant and interactive design to explore tour packages with a seamless user experience. The landing page is optimized for performance, responsiveness, and visual aesthetics.",
     des1: "This project was built with HTML5, CSS3, and advanced SCSS for styling. It features responsive design, custom animations, and interactive UI elements, ensuring accessibility and adaptability across all modern devices.",
     images: [
-      "/natours-1.jpg",
-      "/natours-2.jpg",
-      "/natours-3.jpg",
+      "/adventures-1.jpg",
+      "/adventures-2.jpg",
+      "/adventures-3.jpg",
     ],
-    url: ["https://github.com/charlestanev/AdventurousJourney"],
+    url: ["https://adventurous-journey.vercel.app/"],
     giturl: ["https://github.com/charlestanev/AdventurousJourney"],
     technologies: ["HTML5", "CSS3", "SCSS", "Responsive Design", "Animations"]
   },
