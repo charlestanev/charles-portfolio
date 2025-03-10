@@ -3,7 +3,8 @@ import "./globals.css";
 import localFont from "next/font/local";
 import Header from "../app/components/Header/Header";
 import Footer from "./components/Footer/Footer";
-import { SpeedInsights } from "@vercel/speed-insights/next"; // ✅ Import Speed Insights
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/react"; // ✅ Import Analytics
 
 const poppins = localFont({
   src: [
@@ -42,10 +43,11 @@ export default function RootLayout({ children }) {
         <meta name="description" content="Charles Tanev's personal website" />
       </head>
       <body className={poppins.className}>
-        <SpeedInsights /> {/* ✅ Add Speed Insights here */}
+        <SpeedInsights />
         <Header />
         {children}
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
