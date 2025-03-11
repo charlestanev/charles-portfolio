@@ -94,18 +94,18 @@ export const DataArray = [
     technologies: ["HTML5", "CSS3", "SCSS", "Responsive Design", "Animations"]
   },
   {
-    title: "Adventurous Journey",
-    name: "Adventurous Journey",
-    des: "This project is a modern and responsive travel booking website for adventurous tours. It provides an elegant and interactive design to explore tour packages with a seamless user experience. The landing page is optimized for performance, responsiveness, and visual aesthetics.",
-    des1: "This project was built with HTML5, CSS3, and advanced SCSS for styling. It features responsive design, custom animations, and interactive UI elements, ensuring accessibility and adaptability across all modern devices.",
-    images: [
-      "/adventures-1.jpg",
-      "/adventures-2.jpg",
-      "/adventures-3.jpg",
+    "title": "TS API Playground",
+    "name": "TS API Playground",
+    "des": "TS API Playground is a TypeScript-based web application designed for exploring API interactions and component rendering. It utilizes modern frontend technologies, providing users with a seamless experience in fetching and displaying data dynamically.",
+    "des1": "This project was built using TypeScript and Vite for an optimized development workflow. It includes modular components, API service layers, and a theme toggle feature for enhanced usability. The UI is designed with a focus on clarity and responsiveness.",
+    "images": [
+      "/ts-api-playground-2.png",
+      "/ts-api-playground-3.png",
+      "/ts-api-playground.png"
     ],
-    url: ["https://adventurous-journey.vercel.app/"],
-    giturl: ["https://github.com/charlestanev/AdventurousJourney"],
-    technologies: ["HTML5", "CSS3", "SCSS", "Responsive Design", "Animations"]
+    "url": ["https://ts-api-playground.vercel.app"],
+    "giturl": ["https://github.com/charlestanev/ts-api-playground"],
+    "technologies": ["TypeScript", "Vite", "React", "API Integration", "Modular Components"]
   },
   {
     title: "AeroNext",
