@@ -94,6 +94,20 @@ export const DataArray = [
     technologies: ["HTML5", "CSS3", "SCSS", "Responsive Design", "Animations"]
   },
   {
+    title: "Adventurous Journey",
+    name: "Adventurous Journey",
+    des: "This project is a modern and responsive travel booking website for adventurous tours. It provides an elegant and interactive design to explore tour packages with a seamless user experience. The landing page is optimized for performance, responsiveness, and visual aesthetics.",
+    des1: "This project was built with HTML5, CSS3, and advanced SCSS for styling. It features responsive design, custom animations, and interactive UI elements, ensuring accessibility and adaptability across all modern devices.",
+    images: [
+      "/adventures-1.jpg",
+      "/adventures-2.jpg",
+      "/adventures-3.jpg",
+    ],
+    url: ["https://adventurous-journey.vercel.app/"],
+    giturl: ["https://github.com/charlestanev/AdventurousJourney"],
+    technologies: ["HTML5", "CSS3", "SCSS", "Responsive Design", "Animations"]
+  },
+  {
     title: "AeroNext",
     name: "AeroNext Landing Page",
     des: "This project is a modern and responsive SaaS landing page built with Next.js and React. It provides a sleek design to showcase software services with dynamic animations and interactive UI elements. The landing page is optimized for performance, accessibility, and scalability.",
