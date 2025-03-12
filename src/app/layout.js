@@ -6,11 +6,6 @@ import Footer from "./components/Footer/Footer";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/react";
 
-export const metadata = {
-  title: "Charles Tanev",
-  description: "Charles Tanev's personal website",
-};
-
 const poppins = localFont({
   src: [
     {
