@@ -89,7 +89,7 @@ export const DataArray = [
       "/adventures-2.jpg",
       "/adventures-3.jpg",
     ],
-    url: ["https://adventurous-journey.vercel.app/"],
+    url: ["https://adventurous-journey.vercel.app"],
     giturl: ["https://github.com/charlestanev/AdventurousJourney"],
     technologies: ["HTML5", "CSS3", "SCSS", "Responsive Design", "Animations"]
   },
@@ -101,11 +101,34 @@ export const DataArray = [
     "images": [
       "/ts-api-playground-2.png",
       "/ts-api-playground-3.png",
-      "/ts-api-playground.png"
+      "/ts-api-playground.png",
     ],
     "url": ["https://ts-api-playground.vercel.app"],
     "giturl": ["https://github.com/charlestanev/ts-api-playground"],
     "technologies": ["TypeScript", "Vite", "React", "API Integration", "Modular Components"]
+  },
+  {
+    title: "Dog Breed View",
+    name: "Dog Breed App",
+    des: "This project was built in 2024 to help users browse and manage dog breed information. It features a responsive table to display dog images, IDs, and links, along with search functionality and pagination for easy navigation. The sidebar allows filtering by breed categories, ensuring a user-friendly experience.",
+    des1: "This project was developed using Next.js, React, TailwindCSS, Radix UI, TanStack Table, Embla Carousel, and Lucide React icons. It includes features like responsive design, optimized images, and dropdown actions.",
+    images: ["/dog-app1.jpg", "/dog-app2.jpg", "/dog-app3.jpg",],
+    url: ["https://breed-view.vercel.app"],
+    giturl: ["https://github.com/charlestanev/BreedView"],
+    technologies: ["Next.js", "React.js", "Tailwind CSS", "TypeScript", "Framer Motion"]
+  },
+  {
+    title: "Cineverse Movie Search App",
+    name: "Cineverse App",
+    des: "This project is a ReactJS-based movie search application called 'Cineverse.' It enables users to search for movies, view detailed information, and browse through trending movies. The app features an intuitive and modern UI, ensuring a smooth user experience.",
+    des1: "The Cineverse App was developed using React.js for building the UI, React DOM for rendering components, and React Scripts for setup and configurations. It provides a responsive and interactive interface, making it ideal for movie enthusiasts to explore their favorite films.",
+    images: [
+      "/cineverse-home.png",
+      "/cineverse-search.png",
+    ],
+    url: ["https://cineverse-jet.vercel.app/"],
+    giturl: ["https://github.com/charlestanev/cineverse"],
+    technologies: ["React.js", "React DOM", "JavaScript", "CSS3", "Responsive Design"]
   },
   {
     title: "AeroNext",
@@ -116,16 +139,6 @@ export const DataArray = [
     url: ["https://github.com/charlestanev"],
     giturl: ["https://github.com/charlestanev/AeroNext"],
     technologies: ["Next.js", "React.js", "Tailwind CSS", "Framer Motion", "TypeScript"]
-  },
-  {
-    title: "Dog Breed View",
-    name: "Next.js Dog App",
-    des: "This project was built in 2024 to help users browse and manage dog breed information. It features a responsive table to display dog images, IDs, and links, along with search functionality and pagination for easy navigation. The sidebar allows filtering by breed categories, ensuring a user-friendly experience.",
-    des1: "This project was developed using Next.js, React, TailwindCSS, Radix UI, TanStack Table, Embla Carousel, and Lucide React icons. It includes features like responsive design, optimized images, and dropdown actions.",
-    images: ["/dogapp2.jpg", "/dogapp3.jpg", "/dogapp4.jpg"],
-    url: ["https://breed-view.vercel.app"],
-    giturl: ["https://github.com/charlestanev/next-ui-mastery"],
-    technologies: ["Next.js", "React.js", "Tailwind CSS", "TypeScript", "Framer Motion"]
   },
   {
     title: "GitHub Finder",
@@ -173,19 +186,6 @@ export const DataArray = [
     url: ["https://github.com/charlestanev/bootstrap-admin-panel"],
     giturl: ["https://github.com/charlestanev/admin-panel"],
     technologies: ["HTML5", "CSS3", "Bootstrap 4", "Responsive Design"]
-  },
-  {
-    title: "Cineverse Movie Search App",
-    name: "Cineverse App",
-    des: "This project is a ReactJS-based movie search application called 'Cineverse.' It enables users to search for movies, view detailed information, and browse through trending movies. The app features an intuitive and modern UI, ensuring a smooth user experience.",
-    des1: "The Cineverse App was developed using React.js for building the UI, React DOM for rendering components, and React Scripts for setup and configurations. It provides a responsive and interactive interface, making it ideal for movie enthusiasts to explore their favorite films.",
-    images: [
-      "/cineverse-home.png",
-      "/cineverse-search.png"
-    ],
-    url: ["https://github.com/charlestanev/cineverse"],
-    giturl: ["https://github.com/charlestanev/cineverse"],
-    technologies: ["React.js", "React DOM", "JavaScript", "CSS3", "Responsive Design"]
   },
   {
     title: "Fruit Catch Game",
