@@ -118,12 +118,12 @@ export const DataArray = [
     technologies: ["Next.js", "React.js", "Tailwind CSS", "Framer Motion", "TypeScript"]
   },
   {
-    title: "Dog Breed Management Application",
+    title: "Dog Breed View",
     name: "Next.js Dog App",
     des: "This project was built in 2024 to help users browse and manage dog breed information. It features a responsive table to display dog images, IDs, and links, along with search functionality and pagination for easy navigation. The sidebar allows filtering by breed categories, ensuring a user-friendly experience.",
     des1: "This project was developed using Next.js, React, TailwindCSS, Radix UI, TanStack Table, Embla Carousel, and Lucide React icons. It includes features like responsive design, optimized images, and dropdown actions.",
-    images: ["/dogapp1.jpg", "/dogapp2.jpg"],
-    url: ["https://github.com/charlestanev"],
+    images: ["/dogapp2.jpg", "/dogapp3.jpg", "/dogapp4.jpg"],
+    url: ["https://breed-view.vercel.app"],
     giturl: ["https://github.com/charlestanev/next-ui-mastery"],
     technologies: ["Next.js", "React.js", "Tailwind CSS", "TypeScript", "Framer Motion"]
   },
