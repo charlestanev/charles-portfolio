@@ -94,6 +94,26 @@ export const DataArray = [
     technologies: ["HTML5", "CSS3", "SCSS", "Responsive Design", "Animations"]
   },
   {
+    title: "Dog Breed View",
+    name: "Dog Breed App",
+    des: "This project was built in 2024 to help users browse and manage dog breed information. It features a responsive table to display dog images, IDs, and links, along with search functionality and pagination for easy navigation. The sidebar allows filtering by breed categories, ensuring a user-friendly experience.",
+    des1: "This project was developed using Next.js, React, TailwindCSS, Radix UI, TanStack Table, Embla Carousel, and Lucide React icons. It includes features like responsive design, optimized images, and dropdown actions.",
+    images: ["/dog-app1.jpg", "/dog-app2.jpg", "/dog-app3.jpg",],
+    url: ["https://breed-view.vercel.app"],
+    giturl: ["https://github.com/charlestanev/BreedView"],
+    technologies: ["Next.js", "React.js", "Tailwind CSS", "TypeScript", "Framer Motion"]
+  },
+  {
+    title: "AeroNext",
+    name: "AeroNext Landing Page",
+    des: "This project is a modern and responsive SaaS landing page built with Next.js and React. It provides a sleek design to showcase software services with dynamic animations and interactive UI elements. The landing page is optimized for performance, accessibility, and scalability.",
+    des1: "This project was developed using Next.js, React.js, Tailwind CSS, and Framer Motion for animations. It ensures responsiveness and adaptability across all modern devices and browsers while focusing on a seamless user experience.",
+    images: ["/saas-landing-page-1.jpg", "/saas-landing-page-2.png"],
+    url: ["https://github.com/charlestanev"],
+    giturl: ["https://github.com/charlestanev/AeroNext"],
+    technologies: ["Next.js", "React.js", "Tailwind CSS", "Framer Motion", "TypeScript"]
+  },
+  {
     "title": "TS API Playground",
     "name": "TS API Playground",
     "des": "TS API Playground is a TypeScript-based web application designed for exploring API interactions and component rendering. It utilizes modern frontend technologies, providing users with a seamless experience in fetching and displaying data dynamically.",
@@ -130,16 +150,7 @@ export const DataArray = [
     giturl: ["https://github.com/charlestanev/cineverse"],
     technologies: ["React.js", "React DOM", "JavaScript", "CSS3", "Responsive Design"]
   },
-  {
-    title: "AeroNext",
-    name: "AeroNext Landing Page",
-    des: "This project is a modern and responsive SaaS landing page built with Next.js and React. It provides a sleek design to showcase software services with dynamic animations and interactive UI elements. The landing page is optimized for performance, accessibility, and scalability.",
-    des1: "This project was developed using Next.js, React.js, Tailwind CSS, and Framer Motion for animations. It ensures responsiveness and adaptability across all modern devices and browsers while focusing on a seamless user experience.",
-    images: ["/saas-landing-page-1.jpg", "/saas-landing-page-2.png"],
-    url: ["https://github.com/charlestanev"],
-    giturl: ["https://github.com/charlestanev/AeroNext"],
-    technologies: ["Next.js", "React.js", "Tailwind CSS", "Framer Motion", "TypeScript"]
-  },
+
   {
     title: "GitHub Finder",
     name: "GitHub Finder React",
