@@ -114,6 +114,27 @@ export const DataArray = [
     technologies: ["Next.js", "React.js", "Tailwind CSS", "Framer Motion", "TypeScript"]
   },
   {
+    "title": "React Grocery List App",
+    "name": "Grocery List App",
+    "des": "A modern and interactive Grocery List application built with React.js. This app allows users to create, manage, and organize their grocery shopping lists effortlessly. Users can add new items, mark them as completed, edit existing ones, and remove unwanted items. The app includes a dark mode toggle, a visually appealing UI, and local storage functionality to persist user data.",
+    "des1": "The application was developed using React.js, Tailwind CSS for styling, and Lucide React for modern icons. It features a fully responsive design, ensuring a seamless user experience across desktops, tablets, and mobile devices. The app also supports dark mode with smooth animations and interactive elements.",
+    "images": [
+      "/grocery-list1.png",
+      "/grocery-list2.png",
+      "/grocery-list3.png"
+    ],
+    "url": ["https://react-exercises-smoky.vercel.app"],
+    "giturl": ["https://github.com/charlestanev/react-exercises"],
+    "technologies": [
+      "React.js",
+      "Tailwind CSS",
+      "Lucide React",
+      "Local Storage",
+      "Responsive Design",
+      "Dark Mode Support"
+    ]
+  },
+  {
     "title": "TS API Playground",
     "name": "TS API Playground",
     "des": "TS API Playground is a TypeScript-based web application designed for exploring API interactions and component rendering. It utilizes modern frontend technologies, providing users with a seamless experience in fetching and displaying data dynamically.",
@@ -126,16 +147,6 @@ export const DataArray = [
     "url": ["https://ts-api-playground.vercel.app"],
     "giturl": ["https://github.com/charlestanev/ts-api-playground"],
     "technologies": ["TypeScript", "Vite", "React", "API Integration", "Modular Components"]
-  },
-  {
-    title: "Dog Breed View",
-    name: "Dog Breed App",
-    des: "This project was built in 2024 to help users browse and manage dog breed information. It features a responsive table to display dog images, IDs, and links, along with search functionality and pagination for easy navigation. The sidebar allows filtering by breed categories, ensuring a user-friendly experience.",
-    des1: "This project was developed using Next.js, React, TailwindCSS, Radix UI, TanStack Table, Embla Carousel, and Lucide React icons. It includes features like responsive design, optimized images, and dropdown actions.",
-    images: ["/dog-app1.jpg", "/dog-app2.jpg", "/dog-app3.jpg",],
-    url: ["https://breed-view.vercel.app"],
-    giturl: ["https://github.com/charlestanev/BreedView"],
-    technologies: ["Next.js", "React.js", "Tailwind CSS", "TypeScript", "Framer Motion"]
   },
   {
     title: "Cineverse Movie Search App",
@@ -252,19 +263,6 @@ export const DataArray = [
     url: ["https://github.com/charlestanev/CorporateWebsite"],
     giturl: ["https://github.com/charlestanev/CorporateWebsite"],
     technologies: ["HTML5", "CSS3", "JavaScript", "jQuery", "PHP", "Responsive Design"]
-  },
-  {
-    title: "React Grocery List App",
-    name: "Grocery List App",
-    des: "This project is a React-based Grocery List application designed to help users create and manage grocery shopping lists efficiently. Users can add, remove, and mark items as completed. The app ensures simplicity and ease of use, making it a practical tool for everyday shopping planning.",
-    des1: "The application was developed using React.js, React Icons, and React DOM. It features a responsive design and incorporates intuitive user interactions, providing a seamless experience on both desktop and mobile devices.",
-    images: [
-      "/grocery-list-1.png",
-      "/grocery-list-2.png"
-    ],
-    url: ["https://github.com/charlestanev/react-exercises"],
-    giturl: ["https://github.com/charlestanev/react-exercises"],
-    technologies: ["React.js", "React DOM", "React Icons", "Responsive Design"]
   },
   {
     title: "Bootstrap Social Theme",

@@ -85,7 +85,7 @@ export default function Index({ id, data, DataArray }) {
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-white bg-[#F59E0B] rounded-lg hover:bg-[#111827] transition-colors duration-300"
               >
-                Visit Project Site
+                Live App
               </a>
               <a
                 href={data?.giturl}
@@ -93,11 +93,9 @@ export default function Index({ id, data, DataArray }) {
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-white bg-[#111827] rounded-lg hover:bg-[#F59E0B] transition-colors duration-300"
               >
-                View Project Code
+                View Code
               </a>
             </div>
-
-
             <p className="text-[14px] font-sans mb-4 text-[#111827]">
               {data?.des}
             </p>
