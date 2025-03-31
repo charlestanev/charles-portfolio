@@ -16,6 +16,7 @@ const poppins = localFont({
 });
 
 export const metadata = {
+  metadataBase: new URL("https://charlestanev.dev"),
   title: "Elmir Charlie Tanev | Frontend Developer",
   description: "Portfolio website of Elmir Charlie Tanev - a creative and experienced frontend developer.",
   keywords: ["Elmir Charlie Tanev", "Frontend Developer", "React", "Next.js", "Portfolio"],
