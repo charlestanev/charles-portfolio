@@ -36,6 +36,17 @@ export default function RootLayout({ children }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Charles Tanev</title>
         <meta name="description" content="Charles Tanev's personal website" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-C93E0XW0FX"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-C93E0XW0FX');
+            `,
+          }}
+        />
       </head>
       <body className={poppins.className}>
         <SpeedInsights />
@@ -47,3 +58,33 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+export const metadata = {
+  title: "Elmir Charlie Tanev | Frontend Developer",
+  description: "Portfolio website of Elmir Charlie Tanev - a creative and experienced frontend developer.",
+  keywords: ["Elmir Charlie Tanev", "Frontend Developer", "React", "Next.js", "Portfolio"],
+  openGraph: {
+    title: "Elmir Charlie Tanev | Frontend Developer",
+    description: "Portfolio website of Elmir Charlie Tanev - a creative and experienced frontend developer.",
+    url: "https://charlestanev.dev",
+    siteName: "Charles Portfolio",
+    images: [
+      {
+        url: "https://charlestanev.dev/og-image.jpg", // replace with your image
+        width: 1200,
+        height: 630,
+        alt: "Charles Portfolio",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Elmir Charlie Tanev | Frontend Developer",
+    description: "Check out my frontend portfolio and projects.",
+    creator: "@YourTwitterHandle", // optional
+    images: ["https://charlestanev.dev/og-image.jpg"],
+  },
+};
+
