@@ -44,7 +44,7 @@ export default function RootLayout({ children }) {
         <meta name="twitter:title" content="Elmir Charlie Tanev | Frontend Developer" />
         <meta name="twitter:description" content="Portfolio of Elmir Charlie Tanev - Frontend Developer with expertise in React, Next.js, and UI/UX design." />
         <meta name="twitter:image" content="https://charlestanev.dev/og-image.jpg" />
-
+        <meta name="google-site-verification" content="RRVWG6zy9TvdvRIXyjJRjBlP8zZ7ALy-OzcCxBCFl7I" />
         <title>Charles Tanev</title>
         <meta name="description" content="Charles Tanev's personal website" />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-C93E0XW0FX"></script>
