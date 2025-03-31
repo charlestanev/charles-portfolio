@@ -49,8 +49,6 @@ export default function RootLayout({ children }) {
         {children}
         <Footer />
         <Analytics />
-
-        {/* Google Analytics correctly loaded with next/script */}
         <Script async src="https://www.googletagmanager.com/gtag/js?id=G-HGJL7GJVXM" />
         <Script id="google-analytics">
           {`
