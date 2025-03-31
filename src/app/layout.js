@@ -34,6 +34,17 @@ export default function RootLayout({ children }) {
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Portfolio of Elmir Charlie Tanev - Frontend Developer with expertise in React, Next.js, and UI/UX design. Explore my projects and skills." />
+        <meta name="keywords" content="Elmir Charlie Tanev, Frontend Developer, React, Next.js, Portfolio, Web Developer, UI/UX Design" />
+        <meta property="og:title" content="Elmir Charlie Tanev | Frontend Developer" />
+        <meta property="og:description" content="Portfolio of Elmir Charlie Tanev - Frontend Developer with expertise in React, Next.js, and UI/UX design." />
+        <meta property="og:image" content="https://charlestanev.dev/og-image.jpg" />
+        <meta property="og:url" content="https://charlestanev.dev" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Elmir Charlie Tanev | Frontend Developer" />
+        <meta name="twitter:description" content="Portfolio of Elmir Charlie Tanev - Frontend Developer with expertise in React, Next.js, and UI/UX design." />
+        <meta name="twitter:image" content="https://charlestanev.dev/og-image.jpg" />
+
         <title>Charles Tanev</title>
         <meta name="description" content="Charles Tanev's personal website" />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-C93E0XW0FX"></script>
