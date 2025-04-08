@@ -80,6 +80,34 @@ export const AboutData = [
 
 export const DataArray = [
   {
+    title: "Unique Tools Catalog",
+    name: "Unique Tools Catalog",
+    des: "Unique Tools Catalog is a dynamic online store for tools and machinery used in furniture production. It features an elegant dark-themed UI, search and filtering functionality, and well-organized product cards with category management for an intuitive shopping experience.",
+    des1: "This project was built with Next.js, TypeScript, Tailwind CSS, Prisma, and PostgreSQL. It uses framer-motion for smooth animations, jotai for state management, and features responsive design, category filtering, search functionality, and a dark/light mode toggle. The backend is powered by Prisma ORM with a Neon-hosted PostgreSQL database.",
+    images: [
+      "/unique-tools-1.jpg",
+      "/unique-tools-2.jpg",
+      "/unique-tools-3.jpg",
+      "/unique-tools-4.jpg",
+      "/unique-tools-5.jpg"
+    ],
+    url: ["https://www.unique6.tools/"],
+    giturl: ["https://github.com/charlestanev/unique-6-mebel-tools"],
+    technologies: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Prisma",
+      "PostgreSQL",
+      "Framer Motion",
+      "Jotai",
+      "Lucide Icons",
+      "Zod",
+      "Responsive Design"
+    ]
+  },
+  {
     title: "Adventurous Journey",
     name: "Adventurous Journey",
     des: "This project is a modern and responsive travel booking website for adventurous tours. It provides an elegant and interactive design to explore tour packages with a seamless user experience. The landing page is optimized for performance, responsiveness, and visual aesthetics.",
